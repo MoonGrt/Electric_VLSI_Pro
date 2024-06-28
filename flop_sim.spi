@@ -1,0 +1,52 @@
+*** SPICE deck for cell flop_sim{sch} from library blood_oxygen
+*** Created on 星期五 六月 28, 2024 10:40:52
+*** Last revised on 星期五 六月 28, 2024 12:38:53
+*** Written on 星期五 六月 28, 2024 13:45:32 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT blood_oxygen__flop FROM CELL flop{sch}
+.SUBCKT blood_oxygen__flop d ph1 ph1b ph2 ph2b q
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 gnd net@2 net@32 gnd NMOS L=0.6U W=1.8U
+Mnmos@1 net@10 ph2b net@32 gnd NMOS L=0.6U W=1.8U
+Mnmos@2 net@2 net@10 gnd gnd NMOS L=0.6U W=1.8U
+Mnmos@3 net@10 ph2 d gnd NMOS L=0.6U W=1.8U
+Mnmos@4 gnd net@53 net@62 gnd NMOS L=0.6U W=1.8U
+Mnmos@5 net@14 ph1b net@62 gnd NMOS L=0.6U W=1.8U
+Mnmos@6 net@53 net@14 gnd gnd NMOS L=0.6U W=1.8U
+Mnmos@7 q net@14 gnd gnd NMOS L=0.6U W=1.8U
+Mnmos@8 net@14 ph1 net@2 gnd NMOS L=0.6U W=1.8U
+Mpmos@0 net@43 ph2 net@10 vdd PMOS L=0.6U W=3.6U
+Mpmos@1 net@43 net@2 vdd vdd PMOS L=0.6U W=3.6U
+Mpmos@2 vdd net@10 net@2 vdd PMOS L=0.6U W=3.6U
+Mpmos@3 d ph2b net@10 vdd PMOS L=0.6U W=3.6U
+Mpmos@4 net@12 ph1 net@14 vdd PMOS L=0.6U W=3.6U
+Mpmos@5 net@12 net@53 vdd vdd PMOS L=0.6U W=3.6U
+Mpmos@6 vdd net@14 net@53 vdd PMOS L=0.6U W=3.6U
+Mpmos@7 vdd net@14 q vdd PMOS L=0.6U W=3.6U
+Mpmos@8 net@2 ph1b net@14 vdd PMOS L=0.6U W=3.6U
+.ENDS blood_oxygen__flop
+
+*** SUBCIRCUIT blood_oxygen__std_inv FROM CELL std_inv{sch}
+.SUBCKT blood_oxygen__std_inv a y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 y a gnd gnd NMOS L=0.6U W=1.8U
+Mpmos@0 vdd a y vdd PMOS L=0.6U W=3.6U
+.ENDS blood_oxygen__std_inv
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: flop_sim{sch}
+Xflop@0 d clk net@0 clk net@0 q blood_oxygen__flop
+Xstd_inv@0 clk net@0 blood_oxygen__std_inv
+
+* Spice Code nodes in cell cell 'flop_sim{sch}'
+vdd vdd 0 DC 5
+va clk 0 PULSE(0 5 0n 1n 1n 20n 40n)
+vb d 0 DC pwl 30n 0 31n 5 110n 5 111n 0
+.tran 200n
+.include c5_models.txt
+.END

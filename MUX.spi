@@ -1,0 +1,32 @@
+*** SPICE deck for cell MUX{sch} from library blood_oxygen
+*** Created on 星期五 六月 28, 2024 21:32:04
+*** Last revised on 星期五 六月 28, 2024 22:12:43
+*** Written on 星期五 六月 28, 2024 22:13:01 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT blood_oxygen__std_inv FROM CELL std_inv{sch}
+.SUBCKT blood_oxygen__std_inv a y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 y a gnd gnd NMOS L=0.6U W=1.8U
+Mpmos@0 vdd a y vdd PMOS L=0.6U W=3.6U
+.ENDS blood_oxygen__std_inv
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: MUX{sch}
+Mnmos@0 Q net@22 B gnd NMOS L=0.6U W=1.8U
+Mnmos@2 Q c A gnd NMOS L=0.6U W=1.8U
+Mpmos@0 Q c B vdd PMOS L=0.6U W=3.6U
+Mpmos@2 Q net@22 A vdd PMOS L=0.6U W=3.6U
+Xstd_inv@0 c net@22 blood_oxygen__std_inv
+
+* Spice Code nodes in cell cell 'MUX{sch}'
+vdd vdd 0 DC 5
+va A 0 PULSE(0 5 0n 1n 1n 20n 40n)
+vb B 0 DC pwl 30n 0 31n 5 55n 5 56n 0 80n 0 81n 5 115n 5 116n 0
+vc c 0 DC pwl 30n 0 31n 5 105n 5 106n 0
+.tran 200n
+.include C5_models.txt
+.END

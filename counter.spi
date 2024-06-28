@@ -1,0 +1,45 @@
+*** SPICE deck for cell counter{lay} from library blood_oxygen
+*** Created on 星期五 六月 28, 2024 20:44:03
+*** Last revised on 星期五 六月 28, 2024 21:29:27
+*** Written on 星期五 六月 28, 2024 21:29:32 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT blood_oxygen__flop2 FROM CELL flop2{lay}
+.SUBCKT blood_oxygen__flop2 clk d gnd q qn vdd
+Mnmos@27 net@490 net@497 d gnd NMOS L=0.6U W=1.8U AS=4.86P AD=2.835P PS=9U PD=4.8U
+Mnmos@28 net@508 clk net@490 gnd NMOS L=0.6U W=1.8U AS=2.835P AD=1.148P PS=4.8U PD=3.3U
+Mnmos@29 gnd net@495 net@508 gnd NMOS L=0.6U W=1.8U AS=1.148P AD=12.06P PS=3.3U PD=18.36U
+Mnmos@30 net@495 net@490 gnd gnd NMOS L=0.6U W=1.8U AS=12.06P AD=4.86P PS=18.36U PD=9U
+Mnmos@31 net@497 clk gnd gnd NMOS L=0.6U W=1.8U AS=12.06P AD=4.86P PS=18.36U PD=9U
+Mnmos@36 qn clk net@495 gnd NMOS L=0.6U W=1.8U AS=4.86P AD=2.835P PS=9U PD=4.8U
+Mnmos@37 net@515 net@497 qn gnd NMOS L=0.6U W=1.8U AS=2.835P AD=1.148P PS=4.8U PD=3.3U
+Mnmos@38 gnd q net@515 gnd NMOS L=0.6U W=1.8U AS=1.148P AD=12.06P PS=3.3U PD=18.36U
+Mnmos@39 q qn gnd gnd NMOS L=0.6U W=1.8U AS=12.06P AD=4.86P PS=18.36U PD=9U
+Mpmos@39 net@497 clk vdd vdd PMOS L=0.6U W=3.6U AS=16.2P AD=4.86P PS=20.64U PD=9U
+Mpmos@40 net@490 clk d vdd PMOS L=0.6U W=3.6U AS=4.86P AD=2.835P PS=9U PD=4.8U
+Mpmos@41 net@492 net@497 net@490 vdd PMOS L=0.6U W=3.6U AS=2.835P AD=2.093P PS=4.8U PD=5.1U
+Mpmos@42 vdd net@495 net@492 vdd PMOS L=0.6U W=3.6U AS=2.093P AD=16.2P PS=5.1U PD=20.64U
+Mpmos@43 net@495 net@490 vdd vdd PMOS L=0.6U W=3.6U AS=16.2P AD=4.86P PS=20.64U PD=9U
+Mpmos@44 qn net@497 net@495 vdd PMOS L=0.6U W=3.6U AS=4.86P AD=2.835P PS=9U PD=4.8U
+Mpmos@45 net@501 clk qn vdd PMOS L=0.6U W=3.6U AS=2.835P AD=2.093P PS=4.8U PD=5.1U
+Mpmos@46 vdd q net@501 vdd PMOS L=0.6U W=3.6U AS=2.093P AD=16.2P PS=5.1U PD=20.64U
+Mpmos@47 q qn vdd vdd PMOS L=0.6U W=3.6U AS=16.2P AD=4.86P PS=20.64U PD=9U
+.ENDS blood_oxygen__flop2
+
+*** TOP LEVEL CELL: counter{lay}
+Xflop2@9 clk net@196 gnd D0 net@196 vdd blood_oxygen__flop2
+Xflop2@10 net@196 net@106 gnd D1 net@106 vdd blood_oxygen__flop2
+Xflop2@11 net@106 net@168 gnd D2 net@168 vdd blood_oxygen__flop2
+Xflop2@12 net@168 net@115 gnd D3 net@115 vdd blood_oxygen__flop2
+Xflop2@13 net@115 net@119 gnd D4 net@119 vdd blood_oxygen__flop2
+Xflop2@14 net@119 net@123 gnd D5 net@123 vdd blood_oxygen__flop2
+Xflop2@15 net@123 net@128 gnd D6 net@128 vdd blood_oxygen__flop2
+Xflop2@16 net@128 net@163 gnd D7 net@163 vdd blood_oxygen__flop2
+
+* Spice Code nodes in cell cell 'counter{lay}'
+vdd vdd 0 DC 5
+va clk 0 PULSE(0 5 0n 1n 1n 20n 40n)
+.tran 200n
+.include c5_models.txt
+.END

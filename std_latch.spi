@@ -1,0 +1,30 @@
+*** SPICE deck for cell std_latch{sch} from library blood_oxygen
+*** Created on 星期三 一月 10, 2001 22:13:09
+*** Last revised on 星期五 六月 28, 2024 12:27:11
+*** Written on 星期五 六月 28, 2024 13:35:31 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: std_latch{sch}
+Mnmos@0 gb g gnd gnd NMOS L=0.6U W=1.8U
+Mnmos@1 d g state gnd NMOS L=0.6U W=1.8U
+Mnmos@2 statebar state gnd gnd NMOS L=0.6U W=1.8U
+Mnmos@3 q statebar gnd gnd NMOS L=0.6U W=1.8U
+Mnmos@4 state gb nn gnd NMOS L=0.6U W=1.8U
+Mnmos@5 nn statebar gnd gnd NMOS L=0.6U W=1.8U
+Mpmos@0 vdd g gb vdd PMOS L=0.6U W=3.6U
+Mpmos@1 state gb d vdd PMOS L=0.6U W=3.6U
+Mpmos@2 vdd state statebar vdd PMOS L=0.6U W=3.6U
+Mpmos@3 vdd statebar q vdd PMOS L=0.6U W=3.6U
+Mpmos@4 np g state vdd PMOS L=0.6U W=3.6U
+Mpmos@5 vdd statebar np vdd PMOS L=0.6U W=3.6U
+
+* Spice Code nodes in cell cell 'std_latch{sch}'
+vdd vdd 0 DC 5
+va d 0 PULSE(0 5 0n 1n 1n 20n 40n)
+vb g 0 DC pwl 30n 0 31n 5 110n 5 111n 0
+.tran 200n
+.include c5_models.txt
+.END

@@ -1,0 +1,27 @@
+* SPICE netlist for latch circuit
+
+* Define power supply
+VDD VDD 0 2.5V
+
+* Define input signals
+Vg g 0 PULSE(0 2.5 0n 1n 1n 20n 40n)
+Vd d 0 PULSE(0 2.5 0n 1n 1n 20n 40n)
+
+* Define PMOS transistors
+M1 state g VDD VDD PMOS L=0.18u W=1u
+M2 statebar gb VDD VDD PMOS L=0.18u W=1u
+M3 q state VDD VDD PMOS L=0.18u W=1u
+
+* Define NMOS transistors
+M4 state d statebar 0 NMOS L=0.18u W=1u
+M5 statebar g 0 0 NMOS L=0.18u W=1u
+M6 nn statebar state 0 NMOS L=0.18u W=1u
+M7 np nn 0 0 NMOS L=0.18u W=1u
+
+* Load model parameters (assuming CMOS process parameters)
+.model PMOS PMOS (LEVEL=3 VTO=-0.7 KP=50u W=1u L=0.18u)
+.model NMOS NMOS (LEVEL=3 VTO=0.7 KP=120u W=1u L=0.18u)
+
+* Simulation settings
+.tran 1n 100n
+.end

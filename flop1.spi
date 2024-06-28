@@ -1,0 +1,34 @@
+*** SPICE deck for cell flop1{lay} from library blood_oxygen
+*** Created on 星期五 六月 28, 2024 10:59:50
+*** Last revised on 星期五 六月 28, 2024 14:38:22
+*** Written on 星期五 六月 28, 2024 14:38:24 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** TOP LEVEL CELL: flop1{lay}
+Mnmos@1 state gb d gnd NMOS L=0.6U W=1.8U AS=4.455P AD=2.43P PS=8.7U PD=4.5U
+Mnmos@2 nn clk state gnd NMOS L=0.6U W=1.8U AS=2.43P AD=1.215P PS=4.5U PD=3.45U
+Mnmos@3 gnd net@8 nn gnd NMOS L=0.6U W=1.8U AS=1.215P AD=4.806P PS=3.45U PD=9.3U
+Mnmos@4 net@8 state gnd gnd NMOS L=0.6U W=1.8U AS=4.806P AD=4.658P PS=9.3U PD=8.85U
+Mnmos@5 gb clk gnd gnd NMOS L=0.6U W=1.8U AS=4.806P AD=4.455P PS=9.3U PD=8.7U
+Mnmos@7 state_1 clk net@8 gnd NMOS L=0.6U W=1.8U AS=4.658P AD=2.43P PS=8.85U PD=4.5U
+Mnmos@8 nn_1 gb state_1 gnd NMOS L=0.6U W=1.8U AS=2.43P AD=1.215P PS=4.5U PD=3.45U
+Mnmos@9 gnd q nn_1 gnd NMOS L=0.6U W=1.8U AS=1.215P AD=4.806P PS=3.45U PD=9.3U
+Mnmos@10 q state_1 gnd gnd NMOS L=0.6U W=1.8U AS=4.806P AD=4.86P PS=9.3U PD=9U
+Mpmos@1 state clk d vdd PMOS L=0.6U W=3.6U AS=4.455P AD=2.43P PS=8.7U PD=4.5U
+Mpmos@2 np gb state vdd PMOS L=0.6U W=3.6U AS=2.43P AD=2.16P PS=4.5U PD=5.25U
+Mpmos@3 vdd net@8 np vdd PMOS L=0.6U W=3.6U AS=2.16P AD=5.562P PS=5.25U PD=9.06U
+Mpmos@4 net@8 state vdd vdd PMOS L=0.6U W=3.6U AS=5.562P AD=4.658P PS=9.06U PD=8.85U
+Mpmos@5 gb clk vdd vdd PMOS L=0.6U W=3.6U AS=5.562P AD=4.455P PS=9.06U PD=8.7U
+Mpmos@7 state_1 gb net@8 vdd PMOS L=0.6U W=3.6U AS=4.658P AD=2.43P PS=8.85U PD=4.5U
+Mpmos@8 np_1 clk state_1 vdd PMOS L=0.6U W=3.6U AS=2.43P AD=2.16P PS=4.5U PD=5.25U
+Mpmos@9 vdd q np_1 vdd PMOS L=0.6U W=3.6U AS=2.16P AD=5.562P PS=5.25U PD=9.06U
+Mpmos@10 q state_1 vdd vdd PMOS L=0.6U W=3.6U AS=5.562P AD=4.86P PS=9.06U PD=9U
+
+* Spice Code nodes in cell cell 'flop1{lay}'
+vdd vdd 0 DC 5
+va clk 0 PULSE(0 5 0n 1n 1n 20n 40n)
+vb d 0 DC pwl 30n 0 31n 5 105n 5 106n 0
+.tran 200n
+.include c5_models.txt
+.END

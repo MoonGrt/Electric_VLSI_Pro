@@ -1,0 +1,29 @@
+*** SPICE deck for cell INV_sim{sch} from library blood_oxygen
+*** Created on 星期四 六月 27, 2024 15:24:06
+*** Last revised on 星期四 六月 27, 2024 15:50:04
+*** Written on 星期五 六月 28, 2024 10:52:42 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT blood_oxygen__INV FROM CELL blood_oxygen:INV{sch}
+.SUBCKT blood_oxygen__INV in out
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@1 out in gnd gnd NMOS L=0.6U W=1.8U
+Mpmos@0 vdd in out vdd PMOS L=0.6U W=3.6U
+.ENDS blood_oxygen__INV
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: blood_oxygen:INV_sim{sch}
+XINV@0 IN OUT blood_oxygen__INV
+
+* Spice Code nodes in cell cell 'blood_oxygen:INV_sim{sch}'
+vdd vdd 0 DC 5
+vin in 0 DC pwl 10ns 0 20ns 5 50ns 5 60ns 0
+cload out 0 250fF
+.measure tran tf trig v(out) val=4.5 fall=1 td=8ns targ v(out) val=0.5 fall=1
+.measure tran tr trig v(out) val=0.5 rise=1 td=50ns targ v(out) val=4.5 rise=1
+.tran 0 0.1us
+.include F:\Study\DIC\Lab\Lab2\Lab2_files\C5_models.txt
+.END

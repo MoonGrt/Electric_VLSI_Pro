@@ -1,0 +1,36 @@
+*** SPICE deck for cell XOR{sch} from library blood_oxygen
+*** Created on 星期四 六月 27, 2024 17:13:06
+*** Last revised on 星期五 六月 28, 2024 10:39:17
+*** Written on 星期五 六月 28, 2024 10:39:49 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT blood_oxygen__INV FROM CELL blood_oxygen:INV{sch}
+.SUBCKT blood_oxygen__INV in out
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@1 out in gnd gnd NMOS L=0.6U W=1.8U
+Mpmos@0 vdd in out vdd PMOS L=0.6U W=3.6U
+.ENDS blood_oxygen__INV
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: blood_oxygen:XOR{sch}
+Mnmos@0 XOR A net@50 gnd NMOS L=0.6U W=1.8U
+Mnmos@1 net@50 B gnd gnd NMOS L=0.6U W=1.8U
+Mnmos@2 gnd net@37 net@50 gnd NMOS L=0.6U W=1.8U
+Mnmos@3 net@50 net@64 XOR gnd NMOS L=0.6U W=1.8U
+Mpmos@0 vdd A net@2 vdd PMOS L=0.6U W=3.6U
+Mpmos@1 net@2 net@64 XOR vdd PMOS L=0.6U W=3.6U
+Mpmos@2 XOR net@37 net@4 vdd PMOS L=0.6U W=3.6U
+Mpmos@3 net@4 B vdd vdd PMOS L=0.6U W=3.6U
+XINV@0 A net@37 blood_oxygen__INV
+XINV@1 B net@64 blood_oxygen__INV
+
+* Spice Code nodes in cell cell 'blood_oxygen:XOR{sch}'
+vdd vdd 0 DC 5
+va A 0 DC pwl 10n 0 20n 5 50n 5 60n 0 90n 0 100n 5 130n 5 140n 0 170n 0 180n 5
+vb B 0 DC pwl 10n 0 20n 5 100n 5 110n 0
+.tran 200n
+.include c5_models.txt
+.END
