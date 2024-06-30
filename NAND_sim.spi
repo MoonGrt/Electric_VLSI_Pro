@@ -1,22 +1,26 @@
-*** SPICE deck for cell NAND_sim{lay} from library blood_oxygen
-*** Created on 星期四 六月 27, 2024 16:19:20
-*** Last revised on 星期四 六月 27, 2024 21:09:46
-*** Written on 星期四 六月 27, 2024 21:09:53 by Electric VLSI Design System, version 9.07
+*** SPICE deck for cell NAND_sim{sch} from library cmoscells
+*** Created on 星期六 一月 16, 2010 05:31:02
+*** Last revised on 星期四 六月 27, 2024 16:35:44
+*** Written on 星期五 六月 28, 2024 22:35:56 by Electric VLSI Design System, version 9.07
 *** Layout tech: mocmos, foundry MOSIS
 *** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
 
-*** SUBCIRCUIT blood_oxygen__NAND FROM CELL NAND{lay}
-.SUBCKT blood_oxygen__NAND A AB B gnd vdd
-Mnmos@0 gnd B net@20 gnd NMOS L=0.6U W=3U AS=2.7P AD=22.5P PS=4.8U PD=34.5U
-Mnmos@1 net@20 A AB gnd NMOS L=0.6U W=3U AS=5.25P AD=2.7P PS=7.5U PD=4.8U
-Mpmos@0 vdd B AB vdd PMOS L=0.6U W=3U AS=5.25P AD=14.625P PS=7.5U PD=22.5U
-Mpmos@1 AB A vdd vdd PMOS L=0.6U W=3U AS=14.625P AD=5.25P PS=22.5U PD=7.5U
-.ENDS blood_oxygen__NAND
+*** SUBCIRCUIT cmoscells__NAND FROM CELL NAND{sch}
+.SUBCKT cmoscells__NAND A AB B
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 AB A net@20 gnd NMOS L=0.6U W=3U
+Mnmos@1 AB A vdd vdd PMOS L=0.6U W=3U
+Mnmos@2 net@20 B gnd gnd NMOS L=0.6U W=3U
+Mpmos@0 AB B vdd vdd PMOS L=0.6U W=3U
+.ENDS cmoscells__NAND
 
-*** TOP LEVEL CELL: NAND_sim{lay}
-XNAND@2 A AB B gnd vdd blood_oxygen__NAND
+.global gnd vdd
 
-* Spice Code nodes in cell cell 'NAND_sim{lay}'
+*** TOP LEVEL CELL: NAND_sim{sch}
+XNAND@0 A AB B cmoscells__NAND
+
+* Spice Code nodes in cell cell 'NAND_sim{sch}'
 vdd vdd 0 DC 5
 va A 0 DC pwl 10n 0 20n 5 50n 5 60n 0 90n 0 100n 5 130n 5 140n 0 170n 0 180n 5
 vb B 0 DC pwl 10n 0 20n 5 100n 5 110n 0

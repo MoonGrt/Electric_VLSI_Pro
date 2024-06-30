@@ -1,0 +1,45 @@
+*** SPICE deck for cell add1{lay} from library cmoscells
+*** Created on 星期五 六月 28, 2024 23:16:49
+*** Last revised on 星期六 六月 29, 2024 18:53:08
+*** Written on 星期六 六月 29, 2024 18:53:10 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** TOP LEVEL CELL: add1{lay}
+Mnmos@0 gnd B net@134 gnd NMOS L=0.6U W=1.8U AS=3.42P AD=16.804P PS=6.2U PD=25.114U
+Mnmos@1 net@134 A gnd gnd NMOS L=0.6U W=1.8U AS=16.804P AD=3.42P PS=25.114U PD=6.2U
+Mnmos@2 net@83 C net@134 gnd NMOS L=0.6U W=1.8U AS=3.42P AD=5.805P PS=6.2U PD=8.55U
+Mnmos@4 C1 net@83 gnd gnd NMOS L=0.6U W=1.8U AS=16.804P AD=4.86P PS=25.114U PD=9U
+Mnmos@6 net@253 B net@83 gnd NMOS L=0.6U W=1.8U AS=5.805P AD=1.62P PS=8.55U PD=3.6U
+Mnmos@7 gnd A net@253 gnd NMOS L=0.6U W=1.8U AS=1.62P AD=16.804P PS=3.6U PD=25.114U
+Mnmos@13 net@209 A net@285 gnd NMOS L=0.6U W=1.8U AS=1.62P AD=4.104P PS=3.6U PD=6.48U
+Mnmos@14 net@273 A net@209 gnd NMOS L=0.6U W=1.8U AS=4.104P AD=2.97P PS=6.48U PD=5.1U
+Mnmos@15 net@209 B net@273 gnd NMOS L=0.6U W=1.8U AS=2.97P AD=4.104P PS=5.1U PD=6.48U
+Mnmos@17 gnd net@83 net@273 gnd NMOS L=0.6U W=1.8U AS=2.97P AD=16.804P PS=5.1U PD=25.114U
+Mnmos@18 net@273 C net@209 gnd NMOS L=0.6U W=1.8U AS=4.104P AD=2.97P PS=6.48U PD=5.1U
+Mnmos@19 net@285 B net@286 gnd NMOS L=0.6U W=1.8U AS=1.62P AD=1.62P PS=3.6U PD=3.6U
+Mnmos@20 net@286 C gnd gnd NMOS L=0.6U W=1.8U AS=16.804P AD=1.62P PS=25.114U PD=3.6U
+Mnmos@21 S net@209 gnd gnd NMOS L=0.6U W=1.8U AS=16.804P AD=4.86P PS=25.114U PD=9U
+Mpmos@0 net@85 A vdd vdd PMOS L=0.6U W=3.6U AS=22.294P AD=5.94P PS=26.829U PD=6.9U
+Mpmos@2 net@84 A net@83 vdd PMOS L=0.6U W=3.6U AS=5.805P AD=3.24P PS=8.55U PD=5.4U
+Mpmos@3 net@85 B net@84 vdd PMOS L=0.6U W=3.6U AS=3.24P AD=5.94P PS=5.4U PD=6.9U
+Mpmos@4 vdd B net@85 vdd PMOS L=0.6U W=3.6U AS=5.94P AD=22.294P PS=6.9U PD=26.829U
+Mpmos@9 net@83 C net@85 vdd PMOS L=0.6U W=3.6U AS=5.94P AD=5.805P PS=6.9U PD=8.55U
+Mpmos@10 C1 net@83 vdd vdd PMOS L=0.6U W=3.6U AS=22.294P AD=4.86P PS=26.829U PD=9U
+Mpmos@11 net@210 net@83 net@209 vdd PMOS L=0.6U W=3.6U AS=4.104P AD=6.48P PS=6.48U PD=7.92U
+Mpmos@13 net@210 B vdd vdd PMOS L=0.6U W=3.6U AS=22.294P AD=6.48P PS=26.829U PD=7.92U
+Mpmos@14 vdd A net@210 vdd PMOS L=0.6U W=3.6U AS=6.48P AD=22.294P PS=7.92U PD=26.829U
+Mpmos@15 vdd C net@210 vdd PMOS L=0.6U W=3.6U AS=6.48P AD=22.294P PS=7.92U PD=26.829U
+Mpmos@16 net@225 A net@210 vdd PMOS L=0.6U W=3.6U AS=6.48P AD=3.24P PS=7.92U PD=5.4U
+Mpmos@17 net@226 B net@225 vdd PMOS L=0.6U W=3.6U AS=3.24P AD=3.24P PS=5.4U PD=5.4U
+Mpmos@18 net@227 C net@226 vdd PMOS L=0.6U W=3.6U AS=3.24P AD=8.64P PS=5.4U PD=12U
+Mpmos@19 S net@209 vdd vdd PMOS L=0.6U W=3.6U AS=22.294P AD=4.86P PS=26.829U PD=9U
+
+* Spice Code nodes in cell cell 'add1{lay}'
+vdd vdd 0 DC 5
+va A 0 DC pwl 10n 0 11n 5 50n 5 51n 0 90n 0 91n 5 130n 5 131n 0 170n 0 171n 5
+vb B 0 DC 5
+vc C 0 DC pwl 30n 0 31n 5 105n 5 106n 0
+.tran 200n
+.include c5_models.txt
+.END

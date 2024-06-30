@@ -1,33 +1,25 @@
-*** SPICE deck for cell XOR{sch} from library blood_oxygen
-*** Created on 星期四 六月 27, 2024 17:13:06
-*** Last revised on 星期五 六月 28, 2024 10:39:17
-*** Written on 星期五 六月 28, 2024 10:39:49 by Electric VLSI Design System, version 9.07
+*** SPICE deck for cell XOR{lay} from library cmoscells
+*** Created on 星期四 六月 27, 2024 17:12:55
+*** Last revised on 星期五 六月 28, 2024 10:16:19
+*** Written on 星期六 六月 29, 2024 17:46:27 by Electric VLSI Design System, version 9.07
 *** Layout tech: mocmos, foundry MOSIS
 *** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
 
-*** SUBCIRCUIT blood_oxygen__INV FROM CELL blood_oxygen:INV{sch}
-.SUBCKT blood_oxygen__INV in out
-** GLOBAL gnd
-** GLOBAL vdd
-Mnmos@1 out in gnd gnd NMOS L=0.6U W=1.8U
-Mpmos@0 vdd in out vdd PMOS L=0.6U W=3.6U
-.ENDS blood_oxygen__INV
+*** TOP LEVEL CELL: XOR{lay}
+Mnmos@0 net@86 A XOR gnd NMOS L=0.6U W=3U AS=4.95P AD=6.075P PS=6.3U PD=8.55U
+Mnmos@3 gnd B net@86 gnd NMOS L=0.6U W=3U AS=6.075P AD=17.888P PS=8.55U PD=25.05U
+Mnmos@4 gnd A net@94 gnd NMOS L=0.6U W=3U AS=7.2P AD=17.888P PS=10.8U PD=25.05U
+Mnmos@5 net@45 B gnd gnd NMOS L=0.6U W=3U AS=17.888P AD=7.2P PS=25.05U PD=10.8U
+Mnmos@6 net@86 net@94 gnd gnd NMOS L=0.6U W=3U AS=17.888P AD=6.075P PS=25.05U PD=8.55U
+Mnmos@7 XOR net@45 net@86 gnd NMOS L=0.6U W=3U AS=6.075P AD=4.95P PS=8.55U PD=6.3U
+Mpmos@1 net@98 net@45 XOR vdd PMOS L=0.6U W=3U AS=4.95P AD=2.7P PS=6.3U PD=4.8U
+Mpmos@5 net@45 B vdd vdd PMOS L=0.6U W=3U AS=19.013P AD=7.2P PS=27.3U PD=10.8U
+Mpmos@6 vdd A net@98 vdd PMOS L=0.6U W=3U AS=2.7P AD=19.013P PS=4.8U PD=27.3U
+Mpmos@7 vdd A net@94 vdd PMOS L=0.6U W=3U AS=7.2P AD=19.013P PS=10.8U PD=27.3U
+Mpmos@9 XOR net@94 net@154 vdd PMOS L=0.6U W=3U AS=2.7P AD=4.95P PS=4.8U PD=6.3U
+Mpmos@10 net@154 B vdd vdd PMOS L=0.6U W=3U AS=19.013P AD=2.7P PS=27.3U PD=4.8U
 
-.global gnd vdd
-
-*** TOP LEVEL CELL: blood_oxygen:XOR{sch}
-Mnmos@0 XOR A net@50 gnd NMOS L=0.6U W=1.8U
-Mnmos@1 net@50 B gnd gnd NMOS L=0.6U W=1.8U
-Mnmos@2 gnd net@37 net@50 gnd NMOS L=0.6U W=1.8U
-Mnmos@3 net@50 net@64 XOR gnd NMOS L=0.6U W=1.8U
-Mpmos@0 vdd A net@2 vdd PMOS L=0.6U W=3.6U
-Mpmos@1 net@2 net@64 XOR vdd PMOS L=0.6U W=3.6U
-Mpmos@2 XOR net@37 net@4 vdd PMOS L=0.6U W=3.6U
-Mpmos@3 net@4 B vdd vdd PMOS L=0.6U W=3.6U
-XINV@0 A net@37 blood_oxygen__INV
-XINV@1 B net@64 blood_oxygen__INV
-
-* Spice Code nodes in cell cell 'blood_oxygen:XOR{sch}'
+* Spice Code nodes in cell cell 'XOR{lay}'
 vdd vdd 0 DC 5
 va A 0 DC pwl 10n 0 20n 5 50n 5 60n 0 90n 0 100n 5 130n 5 140n 0 170n 0 180n 5
 vb B 0 DC pwl 10n 0 20n 5 100n 5 110n 0
