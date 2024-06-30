@@ -1,0 +1,39 @@
+*** SPICE deck for cell cmp{sch} from library cmoscells
+*** Created on 星期日 六月 30, 2024 20:46:57
+*** Last revised on 星期日 六月 30, 2024 20:51:32
+*** Written on 星期日 六月 30, 2024 20:51:38 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT cmoscells__std_inv FROM CELL std_inv{sch}
+.SUBCKT cmoscells__std_inv a y
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 y a gnd gnd NMOS L=0.4U W=1.2U
+Mpmos@0 vdd a y vdd PMOS L=0.4U W=2.4U
+.ENDS cmoscells__std_inv
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: cmp{sch}
+Mnmos@0 net@35 net@0 gnd gnd NMOS L=0.4U W=1.2U
+Mnmos@1 go net@14 net@35 gnd NMOS L=0.4U W=1.2U
+Mnmos@2 net@35 net@34 gnd gnd NMOS L=0.4U W=1.2U
+Mnmos@3 net@35 y gnd gnd NMOS L=0.4U W=1.2U
+Mpmos@0 vdd net@0 net@17 vdd PMOS L=0.4U W=2.4U
+Mpmos@1 net@17 net@34 net@18 vdd PMOS L=0.4U W=2.4U
+Mpmos@2 net@18 y go vdd PMOS L=0.4U W=2.4U
+Mpmos@3 vdd net@14 go vdd PMOS L=0.4U W=2.4U
+Xstd_inv@0 gi net@14 cmoscells__std_inv
+Xstd_inv@1 x net@34 cmoscells__std_inv
+Xstd_inv@3 ei net@0 cmoscells__std_inv
+
+* Spice Code nodes in cell cell 'cmp{sch}'
+vdd vdd 0 DC 5
+va x 0 DC pwl 30n 0 31n 5 105n 5 106n 0
+vb y 0 DC 0
+vc gi 0 DC 0
+vd ei 0 DC 5
+.tran 200n
+.include c5_models.txt
+.END
