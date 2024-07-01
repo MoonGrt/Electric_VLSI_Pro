@@ -1,0 +1,63 @@
+*** SPICE deck for cell cmp1_sim{sch} from library cmoscells
+*** Created on 星期一 七月 01, 2024 07:11:28
+*** Last revised on 星期一 七月 01, 2024 07:13:25
+*** Written on 星期一 七月 01, 2024 07:34:58 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT cmoscells__INV FROM CELL INV{sch}
+.SUBCKT cmoscells__INV in out
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 out in gnd gnd NMOS L=0.4U W=1.2U
+Mpmos@0 vdd in out vdd PMOS L=0.4U W=2.4U
+.ENDS cmoscells__INV
+
+*** SUBCIRCUIT cmoscells__cmp1 FROM CELL cmp1{sch}
+.SUBCKT cmoscells__cmp1 a b ei eo gi go
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 net@64 net@95 gnd gnd NMOS L=0.4U W=1.2U
+Mnmos@2 go net@81 net@64 gnd NMOS L=0.4U W=1.2U
+Mnmos@3 net@64 net@91 gnd gnd NMOS L=0.4U W=1.2U
+Mnmos@4 net@64 b gnd gnd NMOS L=0.4U W=1.2U
+Mnmos@5 eo net@81 net@153 gnd NMOS L=0.4U W=1.2U
+Mnmos@6 eo net@95 net@153 gnd NMOS L=0.4U W=1.2U
+Mnmos@7 net@153 a net@155 gnd NMOS L=0.4U W=1.2U
+Mnmos@8 net@153 b net@155 gnd NMOS L=0.4U W=1.2U
+Mnmos@9 net@153 net@95 net@155 gnd NMOS L=0.4U W=1.2U
+Mnmos@10 net@155 net@91 gnd gnd NMOS L=0.4U W=1.2U
+Mnmos@11 net@155 net@188 gnd gnd NMOS L=0.4U W=1.2U
+Mnmos@12 net@155 net@95 gnd gnd NMOS L=0.4U W=1.2U
+Mpmos@0 vdd net@95 net@216 vdd PMOS L=0.4U W=2.4U
+Mpmos@1 net@216 net@91 net@217 vdd PMOS L=0.4U W=2.4U
+Mpmos@2 net@217 b go vdd PMOS L=0.4U W=2.4U
+Mpmos@3 vdd net@81 go vdd PMOS L=0.4U W=2.4U
+Mpmos@4 vdd net@95 net@138 vdd PMOS L=0.4U W=2.4U
+Mpmos@5 net@138 net@81 eo vdd PMOS L=0.4U W=2.4U
+Mpmos@6 vdd net@95 net@146 vdd PMOS L=0.4U W=2.4U
+Mpmos@7 net@146 a net@219 vdd PMOS L=0.4U W=2.4U
+Mpmos@9 vdd net@95 net@147 vdd PMOS L=0.4U W=2.4U
+Mpmos@10 net@147 net@91 net@148 vdd PMOS L=0.4U W=2.4U
+Mpmos@11 net@148 net@188 eo vdd PMOS L=0.4U W=2.4U
+Mpmos@12 net@219 b eo vdd PMOS L=0.4U W=2.4U
+Xstd_inv@0 gi net@81 cmoscells__INV
+Xstd_inv@1 a net@91 cmoscells__INV
+Xstd_inv@2 b net@188 cmoscells__INV
+Xstd_inv@3 ei net@95 cmoscells__INV
+.ENDS cmoscells__cmp1
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: cmp1_sim{sch}
+Xcmp1@0 a b ei eo gi go cmoscells__cmp1
+
+* Spice Code nodes in cell cell 'cmp1_sim{sch}'
+vdd vdd 0 DC 5
+va a 0 DC pwl 30n 0 31n 5 105n 5 106n 0
+vb b 0 DC 0
+vc gi 0 DC 0
+vd ei 0 DC 5
+.tran 200n
+.include c5_models.txt
+.END

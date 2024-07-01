@@ -1,40 +1,36 @@
-*** SPICE deck for cell flop2_sim{sch} from library blood_oxygen
-*** Created on 星期五 六月 28, 2024 21:24:56
-*** Last revised on 星期五 六月 28, 2024 21:26:40
-*** Written on 星期五 六月 28, 2024 21:26:42 by Electric VLSI Design System, version 9.07
+*** SPICE deck for cell flop2_sim{lay} from library cmoscells
+*** Created on 星期一 七月 01, 2024 07:17:00
+*** Last revised on 星期一 七月 01, 2024 07:18:36
+*** Written on 星期一 七月 01, 2024 07:36:42 by Electric VLSI Design System, version 9.07
 *** Layout tech: mocmos, foundry MOSIS
 *** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
 
-*** SUBCIRCUIT blood_oxygen__flop2 FROM CELL flop2{sch}
-.SUBCKT blood_oxygen__flop2 clk d q qn
-** GLOBAL gnd
-** GLOBAL vdd
-Mnmos@0 net@10 clk gnd gnd NMOS L=0.6U W=1.8U
-Mnmos@1 net@2 net@0 gnd gnd NMOS L=0.6U W=1.8U
-Mnmos@2 net@0 clk net@80 gnd NMOS L=0.6U W=1.8U
-Mnmos@3 net@80 net@2 gnd gnd NMOS L=0.6U W=1.8U
-Mnmos@4 net@2 clk qn gnd NMOS L=0.6U W=1.8U
-Mnmos@5 q qn gnd gnd NMOS L=0.6U W=1.8U
-Mnmos@6 qn net@10 net@81 gnd NMOS L=0.6U W=1.8U
-Mnmos@7 net@81 q gnd gnd NMOS L=0.6U W=1.8U
-Mnmos@8 d net@10 net@0 gnd NMOS L=0.6U W=1.8U
-Mpmos@0 vdd clk net@10 vdd PMOS L=0.6U W=3.6U
-Mpmos@1 vdd net@0 net@2 vdd PMOS L=0.6U W=3.6U
-Mpmos@2 net@83 net@10 net@0 vdd PMOS L=0.6U W=3.6U
-Mpmos@3 vdd net@2 net@83 vdd PMOS L=0.6U W=3.6U
-Mpmos@4 qn net@10 net@2 vdd PMOS L=0.6U W=3.6U
-Mpmos@5 vdd qn q vdd PMOS L=0.6U W=3.6U
-Mpmos@6 net@82 clk qn vdd PMOS L=0.6U W=3.6U
-Mpmos@7 vdd q net@82 vdd PMOS L=0.6U W=3.6U
-Mpmos@8 net@0 clk d vdd PMOS L=0.6U W=3.6U
-.ENDS blood_oxygen__flop2
+*** SUBCIRCUIT cmoscells__flop2 FROM CELL flop2{lay}
+.SUBCKT cmoscells__flop2 clk d gnd q qn vdd
+Mnmos@27 net@490 net@497 d gnd NMOS L=0.4U W=1.2U AS=2.16P AD=1.26P PS=6U PD=3.2U
+Mnmos@28 net@508 clk net@490 gnd NMOS L=0.4U W=1.2U AS=1.26P AD=0.51P PS=3.2U PD=2.2U
+Mnmos@29 gnd net@495 net@508 gnd NMOS L=0.4U W=1.2U AS=0.51P AD=5.36P PS=2.2U PD=12.24U
+Mnmos@30 net@495 net@490 gnd gnd NMOS L=0.4U W=1.2U AS=5.36P AD=2.16P PS=12.24U PD=6U
+Mnmos@31 net@497 clk gnd gnd NMOS L=0.4U W=1.2U AS=5.36P AD=2.16P PS=12.24U PD=6U
+Mnmos@36 qn clk net@495 gnd NMOS L=0.4U W=1.2U AS=2.16P AD=1.26P PS=6U PD=3.2U
+Mnmos@37 net@515 net@497 qn gnd NMOS L=0.4U W=1.2U AS=1.26P AD=0.51P PS=3.2U PD=2.2U
+Mnmos@38 gnd q net@515 gnd NMOS L=0.4U W=1.2U AS=0.51P AD=5.36P PS=2.2U PD=12.24U
+Mnmos@39 q qn gnd gnd NMOS L=0.4U W=1.2U AS=5.36P AD=2.16P PS=12.24U PD=6U
+Mpmos@39 net@497 clk vdd vdd PMOS L=0.4U W=2.4U AS=7.2P AD=2.16P PS=13.76U PD=6U
+Mpmos@40 net@490 clk d vdd PMOS L=0.4U W=2.4U AS=2.16P AD=1.26P PS=6U PD=3.2U
+Mpmos@41 net@492 net@497 net@490 vdd PMOS L=0.4U W=2.4U AS=1.26P AD=0.93P PS=3.2U PD=3.4U
+Mpmos@42 vdd net@495 net@492 vdd PMOS L=0.4U W=2.4U AS=0.93P AD=7.2P PS=3.4U PD=13.76U
+Mpmos@43 net@495 net@490 vdd vdd PMOS L=0.4U W=2.4U AS=7.2P AD=2.16P PS=13.76U PD=6U
+Mpmos@44 qn net@497 net@495 vdd PMOS L=0.4U W=2.4U AS=2.16P AD=1.26P PS=6U PD=3.2U
+Mpmos@45 net@501 clk qn vdd PMOS L=0.4U W=2.4U AS=1.26P AD=0.93P PS=3.2U PD=3.4U
+Mpmos@46 vdd q net@501 vdd PMOS L=0.4U W=2.4U AS=0.93P AD=7.2P PS=3.4U PD=13.76U
+Mpmos@47 q qn vdd vdd PMOS L=0.4U W=2.4U AS=7.2P AD=2.16P PS=13.76U PD=6U
+.ENDS cmoscells__flop2
 
-.global gnd vdd
+*** TOP LEVEL CELL: flop2_sim{lay}
+Xflop2@0 clk d gnd q flop2@0_qn vdd cmoscells__flop2
 
-*** TOP LEVEL CELL: flop2_sim{sch}
-Xflop2@0 clk d q qn blood_oxygen__flop2
-
-* Spice Code nodes in cell cell 'flop2_sim{sch}'
+* Spice Code nodes in cell cell 'flop2_sim{lay}'
 vdd vdd 0 DC 5
 va clk 0 PULSE(0 5 0n 1n 1n 20n 40n)
 vb d 0 DC pwl 30n 0 31n 5 105n 5 106n 0

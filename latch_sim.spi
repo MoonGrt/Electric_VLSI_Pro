@@ -1,0 +1,37 @@
+*** SPICE deck for cell latch_sim{sch} from library cmoscells
+*** Created on 星期一 七月 01, 2024 07:19:22
+*** Last revised on 星期一 七月 01, 2024 07:20:08
+*** Written on 星期一 七月 01, 2024 07:37:51 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** SUBCIRCUIT cmoscells__latch FROM CELL latch{sch}
+.SUBCKT cmoscells__latch d g q
+** GLOBAL gnd
+** GLOBAL vdd
+Mnmos@0 gb g gnd gnd NMOS L=0.4U W=1.2U
+Mnmos@1 d g state gnd NMOS L=0.4U W=1.2U
+Mnmos@2 statebar state gnd gnd NMOS L=0.4U W=1.2U
+Mnmos@3 q statebar gnd gnd NMOS L=0.4U W=1.2U
+Mnmos@4 state gb nn gnd NMOS L=0.4U W=1.2U
+Mnmos@5 nn statebar gnd gnd NMOS L=0.4U W=1.2U
+Mpmos@0 vdd g gb vdd PMOS L=0.4U W=2.4U
+Mpmos@1 state gb d vdd PMOS L=0.4U W=2.4U
+Mpmos@2 vdd state statebar vdd PMOS L=0.4U W=2.4U
+Mpmos@3 vdd statebar q vdd PMOS L=0.4U W=2.4U
+Mpmos@4 np g state vdd PMOS L=0.4U W=2.4U
+Mpmos@5 vdd statebar np vdd PMOS L=0.4U W=2.4U
+.ENDS cmoscells__latch
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: latch_sim{sch}
+Xlatch@0 d g q cmoscells__latch
+
+* Spice Code nodes in cell cell 'latch_sim{sch}'
+vdd vdd 0 DC 5
+va d 0 PULSE(0 5 0n 1n 1n 20n 40n)
+vb g 0 DC pwl 30n 0 31n 5 110n 5 111n 0
+.tran 200n
+.include c5_models.txt
+.END
