@@ -7,7 +7,7 @@ Vlayout|lay
 Vschematic|sch
 
 # Technologies:
-Tmocmos|mocmosAnalog()BT|mocmosNumberOfMetalLayers()I3
+Tmocmos|ScaleFORmocmos()D300.0|mocmosAnalog()BT|mocmosNumberOfMetalLayers()I3
 
 # Cell 8bit-reg;1{ic}
 C8bit-reg;1{ic}||artwork|1719773501734|1719777111356|E
@@ -347,7 +347,7 @@ Ey|out|D5G1;|pin@2||O
 X
 
 # Cell INV;1{lay}
-CINV;1{lay}||mocmos|977525865000|1719788483050||DRC_last_good_drc()I1074746165|DRC_last_good_drc_area_date()G1719788395964|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1719788395964|NET_ncc_last_result1()S[TIME 1105559167,MATCH finalmips:std_inv{sch},EXPORT y:y,EXPORT a:a]|prototype_center()I[38400,-12000]
+CINV;1{lay}||mocmos|977525865000|1719818619025||DRC_last_good_drc()I1074746165|DRC_last_good_drc_area_date()G1719788395964|DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1719788395964|NET_ncc_last_result1()S[TIME 1105559167,MATCH finalmips:std_inv{sch},EXPORT y:y,EXPORT a:a]|prototype_center()I[38400,-12000]
 Ngeneric:Facet-Center|art@0||0|0||||AV
 NMetal-1-Metal-2-Con|contact@0||2.5|36||||
 NMetal-1-Polysilicon-1-Con|contact@1||2.5|27.5||||
@@ -2794,8 +2794,8 @@ Es6||D5G2;X-2.5;|conn@14|y|U
 Es7||D5G2;X-2.5;|conn@25|y|U
 X
 
-# Cell blood_oxygen;1{lay}
-Cblood_oxygen;1{lay}||mocmos|1719773429532|1719793784554||DRC_last_good_drc_area_date()G1719787041907
+# Cell blood_oxygen_digital_part;1{lay}
+Cblood_oxygen_digital_part;1{lay}||mocmos|1719773429532|1719793784554||DRC_last_good_drc_area_date()G1719787041907
 IMUX;1{lay}|MUX@0||-1099.5|-231.5|||D5G4;
 IMUX;1{lay}|MUX@1||-1039.5|-231.5|||D5G4;
 IMUX;1{lay}|MUX@2||-979.5|-231.5|||D5G4;
@@ -6856,8 +6856,8 @@ AMetal-1|net@3391||1|S0|XOR@5|gnd|-590.5|-517.5|XOR@6|gnd|-810.5|-517.5
 AMetal-1|net@3392||1|S0|XOR@6|gnd|-810.5|-517.5|XOR@7|gnd|-1030.5|-517.5
 X
 
-# Cell blood_oxygen;1{sch}
-Cblood_oxygen;1{sch}||schematic|1719773422794|1719788752797|
+# Cell blood_oxygen_digital_part;1{sch}
+Cblood_oxygen_digital_part;1{sch}||schematic|1719773422794|1719788752797|
 I8bit-reg;1{ic}|8bit-reg@0||-24.5|8|||D5G4;
 I8bit-reg;1{ic}|8bit-reg@1||-24.5|-8|||D5G4;
 I8bit-reg;1{ic}|8bit-reg@2||42|10|||D5G4;

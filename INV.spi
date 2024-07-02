@@ -1,0 +1,13 @@
+*** SPICE deck for cell INV{sch} from library cmoscells
+*** Created on 星期二 十二月 19, 2000 08:56:10
+*** Last revised on 星期一 七月 01, 2024 07:23:05
+*** Written on 星期一 七月 01, 2024 15:07:36 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+.global gnd vdd
+
+*** TOP LEVEL CELL: INV{sch}
+Mnmos@0 out in gnd gnd NMOS L=0.6U W=1.8U
+Mpmos@0 vdd in out vdd PMOS L=0.6U W=3.6U
+.END

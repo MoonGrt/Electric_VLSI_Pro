@@ -1,0 +1,308 @@
+*** SPICE deck for cell ADC{lay} from library ADC
+*** Created on 星期六 六月 29, 2024 12:00:01
+*** Last revised on 星期一 七月 01, 2024 14:50:05
+*** Written on 星期一 七月 01, 2024 14:53:45 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+*** WARNING: no ground connection for N-transistor wells in cell 'comparator:nmos_20_2{lay}'
+
+*** SUBCIRCUIT comparator__nmos_20_2 FROM CELL comparator:nmos_20_2{lay}
+.SUBCKT comparator__nmos_20_2 bulk drain gate source
+Mnmos@0 source gate drain gnd N L=0.4U W=4U AS=5.2P AD=5.2P PS=10.6U PD=10.6U
+.ENDS comparator__nmos_20_2
+*** WARNING: no ground connection for N-transistor wells in cell 'comparator:nmos_10_2{lay}'
+
+*** SUBCIRCUIT comparator__nmos_10_2 FROM CELL comparator:nmos_10_2{lay}
+.SUBCKT comparator__nmos_10_2 bulk drain gate source
+Mnmos@0 source gate drain gnd N L=0.4U W=2U AS=2.6P AD=2.6P PS=6.6U PD=6.6U
+.ENDS comparator__nmos_10_2
+*** WARNING: no ground connection for N-transistor wells in cell 'comparator:nmos_10_10{lay}'
+
+*** SUBCIRCUIT comparator__nmos_10_10 FROM CELL comparator:nmos_10_10{lay}
+.SUBCKT comparator__nmos_10_10 bulk drain gate source
+Mnmos@0 source gate drain gnd N L=2U W=2U AS=3P AD=3P PS=7U PD=7U
+.ENDS comparator__nmos_10_10
+*** WARNING: no power connection for P-transistor wells in cell 'comparator:pmos_20_2{lay}'
+
+*** SUBCIRCUIT comparator__pmos_20_2 FROM CELL comparator:pmos_20_2{lay}
+.SUBCKT comparator__pmos_20_2 bulk drain gate source
+Mpmos@0 source gate drain vdd P L=0.4U W=4U AS=5.2P AD=5.2P PS=10.6U PD=10.6U
+.ENDS comparator__pmos_20_2
+*** WARNING: no power connection for P-transistor wells in cell 'comparator:pmos_20_1{lay}'
+
+*** SUBCIRCUIT comparator__pmos_20_1 FROM CELL comparator:pmos_20_1{lay}
+.SUBCKT comparator__pmos_20_1 bulk drain gate source
+Mpmos@0 source gate drain vdd P L=0.4U W=8U AS=10.4P AD=10.4P PS=18.6U PD=18.6U
+.ENDS comparator__pmos_20_1
+
+*** SUBCIRCUIT comparator__comparator FROM CELL comparator:comparator{lay}
+.SUBCKT comparator__comparator gnd out vbiasn vbiasp vdd vn vp
+Xnmos_10_@17 gnd net@159 net@114 gnd comparator__nmos_20_2
+Xnmos_10_@18 gnd net@114 net@114 gnd comparator__nmos_20_2
+Xnmos_10_@19 gnd net@228 vbiasn nmos_10_@19_source comparator__nmos_10_2
+Xnmos_10_@22 gnd net@260 vp net@228 comparator__nmos_20_2
+Xnmos_10_@23 gnd net@267 nmos_10_@23_gate net@228 comparator__nmos_20_2
+Xnmos_10_@24 gnd net@413 net@413 gnd comparator__nmos_10_10
+Xnmos_20_@0 gnd net@165 net@163 gnd comparator__nmos_20_2
+Xnmos_20_@1 gnd net@163 net@163 gnd comparator__nmos_20_2
+Xnmos_20_@2 net@413 net@378 net@378 nmos_20_@2_source comparator__nmos_20_2
+Xnmos_20_@3 net@413 net@378 net@406 nmos_20_@3_source comparator__nmos_20_2
+Xnmos_20_@4 net@413 net@406 net@406 nmos_20_@4_source comparator__nmos_20_2
+Xnmos_20_@5 net@413 nmos_20_@5_drain net@378 nmos_20_@5_source comparator__nmos_20_2
+Xnmos_20_@7 gnd net@507 net@487 gnd comparator__nmos_20_2
+Xnmos_20_@10 gnd net@487 net@487 gnd comparator__nmos_20_2
+Xpmos_10_@0 pmos_10_@0_bulk net@114 vp net@196 comparator__pmos_20_2
+Xpmos_10_@2 vdd net@260 net@165 vdd comparator__pmos_20_2
+Xpmos_10_@3 vdd net@267 net@159 vdd comparator__pmos_20_2
+Xpmos_20_@1 pmos_20_@1_bulk net@163 vn net@196 comparator__pmos_20_2
+Xpmos_20_@2 pmos_20_@2_bulk net@196 vbiasp pmos_20_@2_source comparator__pmos_20_2
+Xpmos_20_@4 net@513 net@487 net@406 pmos_20_@4_source comparator__pmos_20_1
+Xpmos_20_@5 net@513 net@507 net@378 pmos_20_@5_source comparator__pmos_20_1
+Xpmos_20_@7 vdd net@378 net@165 vdd comparator__pmos_20_1
+Xpmos_20_@8 vdd net@406 net@159 vdd comparator__pmos_20_1
+Xpmos_20_@9 vdd net@513 vbiasp vdd comparator__pmos_20_1
+Xpmos_20_@10 vdd out net@507 vdd comparator__pmos_20_1
+Xpmos_20_@11 gnd out net@507 gnd comparator__pmos_20_2
+.ENDS comparator__comparator
+
+*** SUBCIRCUIT current_mirror__current_mirror FROM CELL current_mirror:current_mirror{lay}
+.SUBCKT current_mirror__current_mirror gnd vbiasn vbiasp vdd
+Mnmos@0 gnd vbiasn net@36 gnd N L=0.4U W=2U AS=16.3P AD=20.6P PS=24.8U PD=31.6U
+Mnmos@1 gnd vbiasn vbiasn gnd N L=0.4U W=2U AS=5.2P AD=20.6P PS=10.6U PD=31.6U
+Mnmos@2 net@158 vbiasn vbiasp gnd N L=0.4U W=8U AS=9.1P AD=10.4P PS=16.6U PD=18.6U
+Mpmos@7 net@36 net@36 vdd vdd P L=2U W=20U AS=21.7P AD=16.3P PS=40.7U PD=24.8U
+Mpmos@8 vbiasn net@36 vdd vdd P L=0.4U W=4U AS=21.7P AD=5.2P PS=40.7U PD=10.6U
+Mpmos@9 vbiasn vbiasp vdd vdd P L=0.4U W=6U AS=21.7P AD=5.2P PS=40.7U PD=10.6U
+Mpmos@10 vbiasp vbiasp vdd vdd P L=0.4U W=6U AS=21.7P AD=9.1P PS=40.7U PD=16.6U
+Rresnactive@0 net@158 gnd 6.5k
+.ENDS current_mirror__current_mirror
+
+*** SUBCIRCUIT opamp__opamp FROM CELL opamp:opamp{lay}
+.SUBCKT opamp__opamp gnd out vbias3 vbias4 vdd vm vp vss
+*** WARNING: node Poly1-Poly2-Capacitor['cap@0'] component appears to be shorted on net network 'out' in cell 'opamp:opamp{lay}'
+Mnmos@0 net@14 vm net@1 vss N L=0.4U W=2U AS=5.2P AD=2.6P PS=10.6U PD=6.6U
+Mnmos@1 net@12 vbias3 net@14 vss N L=0.4U W=2U AS=2.6P AD=2.6P PS=6.6U PD=6.6U
+Mnmos@2 gnd vbias4 net@12 vss N L=0.4U W=2U AS=2.6P AD=10.6P PS=6.6U PD=30.6U
+Mnmos@3 net@14 vp net@5 vss N L=0.4U W=2U AS=12.7P AD=2.6P PS=18.6U PD=6.6U
+Mnmos@4 net@25 vbias3 out vss N L=0.4U W=2U AS=5.2P AD=2.6P PS=10.6U PD=6.6U
+Mnmos@5 vss vbias4 net@25 vss N L=0.4U W=2U AS=2.6P AD=6.6P PS=6.6U PD=18.6U
+Mpmos@0 net@1 net@1 vdd vdd P L=0.4U W=6U AS=13.8P AD=5.2P PS=28.6U PD=10.6U
+Mpmos@1 out net@5 vdd vdd P L=0.4U W=6U AS=13.8P AD=5.2P PS=28.6U PD=10.6U
+Mpmos@2 net@5 net@1 vdd vdd P L=0.4U W=6U AS=13.8P AD=12.7P PS=28.6U PD=18.6U
+Rresnactive@0 out net@5 1
+.ENDS opamp__opamp
+
+*** SUBCIRCUIT opampbias__opampbias FROM CELL opampbias:opampbias{lay}
+.SUBCKT opampbias__opampbias gnd vbias1 vbias2 vbias3 vbias4 vbiasn vdd vhigh vlow vncas vpcas
+Mnmos@1 gnd vbiasn vbias2 gnd N L=0.4U W=2U AS=5.8P AD=6P PS=10.8U PD=16.667U
+Mnmos@2 gnd vbiasn vbias1 gnd N L=0.4U W=2U AS=5.2P AD=6P PS=10.6U PD=16.667U
+Mnmos@3 net@45 vncas vncas gnd N L=0.4U W=2U AS=5.2P AD=2.6P PS=10.6U PD=6.6U
+Mnmos@4 net@48 vbias3 net@45 gnd N L=0.4U W=2U AS=2.6P AD=2.6P PS=6.6U PD=6.6U
+Mnmos@5 gnd net@45 net@48 gnd N L=0.4U W=2U AS=2.6P AD=6P PS=6.6U PD=16.667U
+Mnmos@6 vlow vbias3 vbias4 gnd N L=0.4U W=2U AS=5.2P AD=2.6P PS=10.6U PD=6.6U
+Mnmos@7 gnd vbias4 vlow gnd N L=0.4U W=2U AS=2.6P AD=6P PS=6.6U PD=16.667U
+Mnmos@8 net@60 vbias3 vpcas gnd N L=0.4U W=2U AS=5.2P AD=2.6P PS=10.6U PD=6.6U
+Mnmos@9 gnd vbias4 net@60 gnd N L=0.4U W=2U AS=2.6P AD=6P PS=6.6U PD=16.667U
+Mnmos@10 gnd vbias3 vbias3 gnd N L=2U W=2U AS=5.4P AD=6P PS=10.8U PD=16.667U
+Mpmos@0 vbias2 vbias2 vdd vdd P L=2U W=6U AS=19P AD=5.8P PS=40.333U PD=10.8U
+Mpmos@1 vbias1 vbias2 net@6 vdd P L=0.4U W=6U AS=7.8P AD=5.2P PS=14.6U PD=10.6U
+Mpmos@2 vncas net@6 vhigh vdd P L=0.4U W=6U AS=7.8P AD=5.2P PS=14.6U PD=10.6U
+Mpmos@3 vhigh vbias1 vdd vdd P L=0.4U W=6U AS=19P AD=7.8P PS=40.333U PD=14.6U
+Mpmos@4 net@6 vbias1 vdd vdd P L=0.4U W=6U AS=19P AD=7.8P PS=40.333U PD=14.6U
+Mpmos@5 vbias3 vbias2 net@20 vdd P L=0.4U W=6U AS=7.8P AD=5.4P PS=14.6U PD=10.8U
+Mpmos@6 net@20 vbias1 vdd vdd P L=0.4U W=6U AS=19P AD=7.8P PS=40.333U PD=14.6U
+Mpmos@7 vbias4 vbias2 net@26 vdd P L=0.4U W=6U AS=7.8P AD=5.2P PS=14.6U PD=10.6U
+Mpmos@8 net@26 vbias1 vdd vdd P L=0.4U W=6U AS=19P AD=7.8P PS=40.333U PD=14.6U
+Mpmos@9 net@29 vbias2 net@32 vdd P L=0.4U W=6U AS=7.8P AD=7.8P PS=14.6U PD=14.6U
+Mpmos@10 net@32 net@29 vdd vdd P L=0.4U W=6U AS=19P AD=7.8P PS=40.333U PD=14.6U
+Mpmos@11 vpcas vpcas net@29 vdd P L=0.4U W=6U AS=7.8P AD=5.2P PS=14.6U PD=10.6U
+.ENDS opampbias__opampbias
+
+*** SUBCIRCUIT ADC__r2r FROM CELL ADC:r2r{lay}
+.SUBCKT ADC__r2r gnd v1 v2 v3 v4 Vout
+Rresnactive@0 net@3 net@0 10k
+Rresnactive@1 net@7 net@3 10k
+Rresnactive@2 Vout net@7 10k
+Rresnactive@3 v3 net@3 20k
+Rresnactive@4 v4 net@0 20k
+Rresnactive@5 v2 net@7 20k
+Rresnactive@6 v1 Vout 20k
+Rresnactive@8 gnd net@0 20k
+.ENDS ADC__r2r
+
+*** SUBCIRCUIT logic_gate__xor FROM CELL logic_gate:xor{lay}
+.SUBCKT logic_gate__xor A B gnd out vdd
+Mnmos@0 net@4 A net@1 gnd N L=0.4U W=4U AS=5.2P AD=5.2P PS=10.6U PD=10.6U
+Mnmos@1 net@39 B net@29 gnd N L=0.4U W=4U AS=5.2P AD=5.2P PS=10.6U PD=10.6U
+Mnmos@2 net@55 net@1 out gnd N L=0.4U W=4U AS=5.2P AD=5.2P PS=10.6U PD=10.6U
+Mnmos@3 gnd A net@55 gnd N L=0.4U W=4U AS=5.2P AD=15.2P PS=10.6U PD=36.6U
+Mnmos@4 net@55 B out gnd N L=0.4U W=4U AS=5.2P AD=5.2P PS=10.6U PD=10.6U
+Mnmos@5 gnd net@29 net@55 gnd N L=0.4U W=4U AS=5.2P AD=15.2P PS=10.6U PD=36.6U
+Mpmos@0 net@1 A net@0 vdd P L=0.4U W=4U AS=5.2P AD=5.2P PS=10.6U PD=10.6U
+Mpmos@1 net@29 B net@28 vdd P L=0.4U W=4U AS=5.2P AD=5.2P PS=10.6U PD=10.6U
+Mpmos@2 net@40 A vdd vdd P L=0.4U W=4U AS=15.2P AD=5.2P PS=36.6U PD=10.6U
+Mpmos@3 out net@29 net@40 vdd P L=0.4U W=4U AS=5.2P AD=5.2P PS=10.6U PD=10.6U
+Mpmos@4 net@48 net@1 vdd vdd P L=0.4U W=4U AS=15.2P AD=5.2P PS=36.6U PD=10.6U
+Mpmos@5 out B net@48 vdd P L=0.4U W=4U AS=5.2P AD=5.2P PS=10.6U PD=10.6U
+.ENDS logic_gate__xor
+
+*** TOP LEVEL CELL: ADC:ADC{lay}
+*** WARNING: node Poly1-Poly2-Capacitor['cap@0'] component appears to be shorted on net network 'gnd/4' in cell 'ADC:ADC{lay}'
+Xcomparat@0 gnd net@329 net@190 net@181 vdd net@205 net@48 comparator__comparator
+Xcomparat@1 gnd net@443 net@190 net@181 vdd net@274 net@48 comparator__comparator
+Xcomparat@4 gnd net@442 net@190 net@181 vdd net@350 net@48 comparator__comparator
+Xcomparat@5 gnd net@972 net@190 net@181 vdd net@396 net@48 comparator__comparator
+Xcomparat@6 gnd net@671 net@190 net@181 vdd net@618 net@48 comparator__comparator
+Xcomparat@7 gnd net@597 net@190 net@181 vdd net@523 net@48 comparator__comparator
+Xcomparat@8 gnd net@596 net@190 net@181 vdd net@524 net@48 comparator__comparator
+Xcomparat@9 gnd net@1142 net@190 net@181 vdd net@556 net@48 comparator__comparator
+Xcomparat@10 gnd net@822 net@190 net@181 vdd net@772 net@48 comparator__comparator
+Xcomparat@11 gnd net@1178 net@190 net@181 vdd net@681 net@48 comparator__comparator
+Xcomparat@12 gnd net@754 net@190 net@181 vdd net@682 net@48 comparator__comparator
+Xcomparat@13 gnd net@1240 net@190 net@181 vdd net@714 net@48 comparator__comparator
+Xcomparat@14 gnd net@1270 net@190 net@181 vdd net@841 net@48 comparator__comparator
+Xcomparat@15 gnd net@1295 net@190 net@181 vdd net@842 net@48 comparator__comparator
+Xcomparat@16 gnd net@918 net@190 net@181 vdd net@874 net@48 comparator__comparator
+Xcomparat@17 gnd net@2367 net@2244 net@2243 vdd net@2305 net@1881 comparator__comparator
+Xcomparat@18 gnd net@2455 net@2244 net@2243 vdd net@2324 net@1881 comparator__comparator
+Xcomparat@19 gnd net@2454 net@2244 net@2243 vdd net@2247 net@1881 comparator__comparator
+Xcomparat@20 gnd net@1929 net@2244 net@2243 vdd net@2256 net@1881 comparator__comparator
+Xcomparat@21 gnd net@1933 net@2244 net@2243 vdd net@2606 net@1881 comparator__comparator
+Xcomparat@22 gnd net@1944 net@2244 net@2243 vdd net@2519 net@1881 comparator__comparator
+Xcomparat@23 gnd net@2592 net@2244 net@2243 vdd net@2249 net@1881 comparator__comparator
+Xcomparat@24 gnd net@1957 net@2244 net@2243 vdd net@2250 net@1881 comparator__comparator
+Xcomparat@25 gnd net@1956 net@2244 net@2243 vdd net@2754 net@1881 comparator__comparator
+Xcomparat@26 gnd net@1983 net@2244 net@2243 vdd net@2668 net@1881 comparator__comparator
+Xcomparat@27 gnd net@2742 net@2244 net@2243 vdd net@2251 net@1881 comparator__comparator
+Xcomparat@28 gnd net@2020 net@2244 net@2243 vdd net@2252 net@1881 comparator__comparator
+Xcomparat@29 gnd net@2039 net@2244 net@2243 vdd net@2813 net@1881 comparator__comparator
+Xcomparat@30 gnd net@2060 net@2244 net@2243 vdd net@2254 net@1881 comparator__comparator
+Xcomparat@31 gnd net@2886 net@2244 net@2243 vdd net@2255 net@1881 comparator__comparator
+Xcurrent_@0 gnd net@190 net@181 vdd current_mirror__current_mirror
+Xcurrent_@1 gnd net@2244 net@2243 vdd current_mirror__current_mirror
+Mnmos@0 net@2 net@7 net@1 vss N L=0.4U W=4U AS=5.2P AD=5.2P PS=10.6U PD=10.6U
+Mnmos@1 vin net@7 gnd vss N L=0.4U W=4U AS=17.2P AD=5.2P PS=40.6U PD=10.6U
+Mnmos@2 net@1439 net@1142 net@1427 vss N L=0.4U W=4U AS=5.2P AD=5.2P PS=10.6U PD=10.6U
+Mnmos@3 net@1456 net@1427 net@1444 vss N L=0.4U W=4U AS=10.7P AD=5.2P PS=22.6U PD=10.6U
+Mnmos@4 net@2151 net@1957 net@2145 vss N L=0.4U W=4U AS=5.2P AD=5.2P PS=10.6U PD=10.6U
+Mnmos@5 net@2160 net@2145 net@2153 vss N L=0.4U W=4U AS=10.7P AD=5.2P PS=22.6U PD=10.6U
+Xopamp@0 gnd net@48 net@65 net@74 vdd net@48 gnd vss opamp__opamp
+Xopamp@1 gnd net@1579 net@65 net@74 vdd net@1579 net@1562 vss opamp__opamp
+Xopamp@2 gnd net@1646 net@65 net@74 vdd net@1646 net@1642 vss opamp__opamp
+Xopamp@3 gnd net@1814 net@65 net@74 vdd net@1686 net@1679 vss opamp__opamp
+Xopamp@4 gnd net@1881 net@65 net@74 vdd net@1877 net@1814 vss opamp__opamp
+Xopampbia@0 gnd opampbia@0_vbias1 opampbia@0_vbias2 net@65 net@74 opampbia@0_vbiasn vdd opampbia@0_vhigh opampbia@0_vlow opampbia@0_vncas opampbia@0_vpcas opampbias__opampbias
+Mpmos@0 net@1 net@7 net@0 vdd P L=0.4U W=4U AS=5.2P AD=5.2P PS=10.6U PD=10.6U
+Mpmos@1 vin net@1 gnd vdd P L=0.4U W=4U AS=17.2P AD=5.2P PS=40.6U PD=10.6U
+Mpmos@2 net@1427 net@1142 net@1426 vdd P L=0.4U W=4U AS=5.2P AD=5.2P PS=10.6U PD=10.6U
+Mpmos@3 net@1444 net@1427 net@1443 vdd P L=0.4U W=4U AS=5.2P AD=10.7P PS=10.6U PD=22.6U
+Mpmos@4 net@2145 net@1957 net@2144 vdd P L=0.4U W=4U AS=5.2P AD=5.2P PS=10.6U PD=10.6U
+Mpmos@5 net@2153 net@2145 net@2152 vdd P L=0.4U W=4U AS=5.2P AD=10.7P PS=10.6U PD=22.6U
+Xr2r@0 gnd net@1444 net@1077 net@1511 net@1528 net@1562 ADC__r2r
+Rresnactive@0 net@205 vref 10k
+Rresnactive@1 net@274 net@205 10k
+Rresnactive@2 net@350 net@274 10k
+Rresnactive@3 net@396 net@350 10k
+Rresnactive@4 net@618 net@396 10k
+Rresnactive@5 net@523 net@618 10k
+Rresnactive@6 net@524 net@523 10k
+Rresnactive@7 net@556 net@524 10k
+Rresnactive@8 net@681 net@772 10k
+Rresnactive@9 net@682 net@681 10k
+Rresnactive@10 net@714 net@682 10k
+Rresnactive@11 net@772 net@556 10k
+Rresnactive@12 net@841 net@714 10k
+Rresnactive@13 net@842 net@841 10k
+Rresnactive@14 net@874 net@842 10k
+Rresnactive@15 gnd net@874 10k
+Rresnactive@17 net@1642 net@1579 17k
+Rresnactive@18 gnd net@1642 33k
+Rresnactive@19 net@1679 net@1646 500k
+Rresnactive@20 net@1686 net@48 500k
+Rresnactive@21 net@1814 net@1679 500k
+Rresnactive@22 gnd net@1679 500k
+Rresnactive@23 net@1877 net@1881 750k
+Rresnactive@24 gnd net@1877 50k
+Rresnactive@25 net@2305 vref 10k
+Rresnactive@26 net@2324 net@2305 10k
+Rresnactive@27 net@2247 net@2324 10k
+Rresnactive@28 net@2256 net@2247 10k
+Rresnactive@29 net@2606 net@2256 10k
+Rresnactive@30 net@2519 net@2606 10k
+Rresnactive@31 net@2249 net@2519 10k
+Rresnactive@32 net@2250 net@2249 10k
+Rresnactive@33 net@2668 net@2754 10k
+Rresnactive@34 net@2251 net@2668 10k
+Rresnactive@35 net@2252 net@2251 10k
+Rresnactive@36 net@2754 net@2250 10k
+Rresnactive@37 net@2813 net@2252 10k
+Rresnactive@38 net@2254 net@2813 10k
+Rresnactive@39 net@2255 net@2254 10k
+Rresnactive@40 gnd net@2255 10k
+Rresnactive@41 vout0 net@2190 17k
+Rresnactive@42 gnd vout0 33k
+Rresnactive@43 vout1 net@2193 17k
+Rresnactive@44 gnd vout1 33k
+Rresnactive@45 vout2 net@1988 17k
+Rresnactive@46 gnd vout2 33k
+Rresnactive@48 gnd vout3 33k
+Rresnactive@49 vout3 net@2153 17k
+Rresnactive@50 vout4 net@1528 17k
+Rresnactive@51 gnd vout4 33k
+Rresnactive@52 vout5 net@1511 17k
+Rresnactive@53 gnd vout5 33k
+Rresnactive@54 vout6 net@1077 17k
+Rresnactive@55 gnd vout6 33k
+Rresnactive@56 vout7 net@1444 17k
+Rresnactive@57 gnd vout7 33k
+Xxor@1 gnd net@443 gnd net@497 vdd logic_gate__xor
+Xxor@2 gnd net@329 gnd net@483 vdd logic_gate__xor
+Xxor@3 net@443 net@442 gnd net@488 vdd logic_gate__xor
+Xxor@4 gnd net@972 gnd net@516 vdd logic_gate__xor
+Xxor@5 net@483 net@488 gnd net@1083 vdd logic_gate__xor
+Xxor@6 net@516 net@1106 gnd net@1077 vdd logic_gate__xor
+Xxor@7 xor@7_A net@596 gnd net@1030 vdd logic_gate__xor
+Xxor@8 net@972 net@671 gnd net@1023 vdd logic_gate__xor
+Xxor@9 net@1178 net@754 gnd net@1213 vdd logic_gate__xor
+Xxor@10 net@1142 net@1178 gnd net@1342 vdd logic_gate__xor
+Xxor@11 net@1240 net@1270 gnd net@1319 vdd logic_gate__xor
+Xxor@12 net@1295 net@918 gnd net@1318 vdd logic_gate__xor
+Xxor@13 net@972 net@597 gnd net@998 vdd logic_gate__xor
+Xxor@14 net@998 net@497 gnd net@1053 vdd logic_gate__xor
+Xxor@15 net@1023 net@1030 gnd net@1081 vdd logic_gate__xor
+Xxor@16 net@1053 net@1327 gnd net@1511 vdd logic_gate__xor
+Xxor@17 net@1083 net@1081 gnd net@1118 vdd logic_gate__xor
+Xxor@18 net@1118 net@1137 gnd net@1528 vdd logic_gate__xor
+Xxor@19 net@1142 net@822 gnd net@1215 vdd logic_gate__xor
+Xxor@20 net@1295 net@1240 gnd net@1347 vdd logic_gate__xor
+Xxor@21 net@1318 net@1319 gnd net@1371 vdd logic_gate__xor
+Xxor@22 net@1347 net@1342 gnd net@1327 vdd logic_gate__xor
+Xxor@23 net@1142 net@1240 gnd net@1106 vdd logic_gate__xor
+Xxor@24 net@1213 net@1215 gnd net@1263 vdd logic_gate__xor
+Xxor@25 net@1263 net@1371 gnd net@1137 vdd logic_gate__xor
+Xxor@26 gnd net@2455 gnd net@1954 vdd logic_gate__xor
+Xxor@27 gnd net@2367 gnd net@2482 vdd logic_gate__xor
+Xxor@28 net@2455 net@2454 gnd net@2486 vdd logic_gate__xor
+Xxor@29 gnd net@1929 gnd net@2511 vdd logic_gate__xor
+Xxor@30 net@2482 net@2486 gnd net@2550 vdd logic_gate__xor
+Xxor@31 net@2511 net@2019 gnd net@1988 vdd logic_gate__xor
+Xxor@32 xor@32_A net@2592 gnd net@2209 vdd logic_gate__xor
+Xxor@33 net@1929 net@1933 gnd net@2165 vdd logic_gate__xor
+Xxor@34 net@1983 net@2742 gnd net@2003 vdd logic_gate__xor
+Xxor@35 net@1957 net@1983 gnd net@2094 vdd logic_gate__xor
+Xxor@36 net@2020 net@2039 gnd net@2078 vdd logic_gate__xor
+Xxor@37 net@2060 net@2886 gnd net@2076 vdd logic_gate__xor
+Xxor@38 net@1929 net@1944 gnd net@1953 vdd logic_gate__xor
+Xxor@39 net@1953 net@1954 gnd net@2407 vdd logic_gate__xor
+Xxor@40 net@2165 net@2209 gnd net@2528 vdd logic_gate__xor
+Xxor@41 net@2407 net@2084 gnd net@2193 vdd logic_gate__xor
+Xxor@42 net@2550 net@2528 gnd net@2202 vdd logic_gate__xor
+Xxor@43 net@2202 net@1948 gnd net@2190 vdd logic_gate__xor
+Xxor@44 net@1957 net@1956 gnd net@2004 vdd logic_gate__xor
+Xxor@45 net@2060 net@2020 gnd net@2100 vdd logic_gate__xor
+Xxor@46 net@2076 net@2078 gnd net@2108 vdd logic_gate__xor
+Xxor@47 net@2100 net@2094 gnd net@2084 vdd logic_gate__xor
+Xxor@48 net@1957 net@2020 gnd net@2019 vdd logic_gate__xor
+Xxor@49 net@2003 net@2004 gnd net@2036 vdd logic_gate__xor
+Xxor@50 net@2036 net@2108 gnd net@1948 vdd logic_gate__xor
+.END
