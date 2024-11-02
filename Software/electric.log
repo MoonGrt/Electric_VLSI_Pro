@@ -1,0 +1,2659 @@
+Electric Version 9.07
+--------------- 0 --------------
+  Fri Nov 01 17:47:44 CST 2024
+Menu Activated: File | New Library...
+--------------- 1 --------------
+  Fri Nov 01 17:48:08 CST 2024
+Menu Activated: Cell | New Cell...
+--------------- 2 --------------
+  Fri Nov 01 17:48:25 CST 2024
+Menu Activated: File | Open Library...
+--------------- 3 --------------
+  Fri Nov 01 17:48:44 CST 2024
+ProcessKeyBinding 401 when=1730454524521 modifiers=80 code=11 char=ffff false false
+--------------- 4 --------------
+  Fri Nov 01 17:48:44 CST 2024
+Menu Activated: Edit | Copy
+--------------- 5 --------------
+  Fri Nov 01 17:48:44 CST 2024
+ProcessKeyBinding 400 when=1730454524521 modifiers=80 code=0 char=3 false false
+--------------- 6 --------------
+  Fri Nov 01 17:48:44 CST 2024
+ProcessKeyBinding 402 when=1730454524521 modifiers=0 code=11 char=ffff false false
+--------------- 7 --------------
+  Fri Nov 01 17:48:45 CST 2024
+ProcessKeyBinding 401 when=1730454525996 modifiers=80 code=11 char=ffff false false
+--------------- 8 --------------
+  Fri Nov 01 17:48:45 CST 2024
+Menu Activated: Edit | Paste
+--------------- 9 --------------
+  Fri Nov 01 17:48:45 CST 2024
+ProcessKeyBinding 400 when=1730454525996 modifiers=80 code=0 char=16 false false
+--------------- 10 --------------
+  Fri Nov 01 17:48:45 CST 2024
+ProcessKeyBinding 402 when=1730454525996 modifiers=0 code=11 char=ffff false false
+--------------- 11 --------------
+  Fri Nov 01 17:49:00 CST 2024
+ProcessKeyBinding 402 when=1730454540772 modifiers=0 code=a char=a false false
+--------------- 12 --------------
+  Fri Nov 01 17:49:39 CST 2024
+ProcessKeyBinding 402 when=1730454579811 modifiers=0 code=a char=a false false
+--------------- 13 --------------
+  Fri Nov 01 17:49:52 CST 2024
+ProcessKeyBinding 402 when=1730454592432 modifiers=0 code=a char=a false false
+--------------- 14 --------------
+  Fri Nov 01 17:50:06 CST 2024
+ProcessKeyBinding 401 when=1730454606703 modifiers=80 code=11 char=ffff false false
+--------------- 15 --------------
+  Fri Nov 01 17:50:06 CST 2024
+Menu Activated: Edit | Copy
+--------------- 16 --------------
+  Fri Nov 01 17:50:06 CST 2024
+ProcessKeyBinding 400 when=1730454606703 modifiers=80 code=0 char=3 false false
+--------------- 17 --------------
+  Fri Nov 01 17:50:06 CST 2024
+ProcessKeyBinding 402 when=1730454606725 modifiers=0 code=11 char=ffff false false
+--------------- 18 --------------
+  Fri Nov 01 17:50:08 CST 2024
+ProcessKeyBinding 401 when=1730454608074 modifiers=80 code=11 char=ffff false false
+--------------- 19 --------------
+  Fri Nov 01 17:50:08 CST 2024
+Menu Activated: Edit | Paste
+--------------- 20 --------------
+  Fri Nov 01 17:50:08 CST 2024
+ProcessKeyBinding 400 when=1730454608074 modifiers=80 code=0 char=16 false false
+--------------- 21 --------------
+  Fri Nov 01 17:50:08 CST 2024
+ProcessKeyBinding 402 when=1730454608074 modifiers=0 code=11 char=ffff false false
+--------------- 22 --------------
+  Fri Nov 01 17:50:25 CST 2024
+ProcessKeyBinding 402 when=1730454625378 modifiers=0 code=a char=a false false
+--------------- 23 --------------
+  Fri Nov 01 17:51:36 CST 2024
+ProcessKeyBinding 402 when=1730454696230 modifiers=0 code=a char=a false false
+--------------- 24 --------------
+  Fri Nov 01 17:52:08 CST 2024
+ProcessKeyBinding 402 when=1730454728633 modifiers=0 code=a char=a false false
+--------------- 25 --------------
+  Fri Nov 01 17:52:43 CST 2024
+ProcessKeyBinding 402 when=1730454763010 modifiers=0 code=a char=a false false
+--------------- 26 --------------
+  Fri Nov 01 17:52:51 CST 2024
+ProcessKeyBinding 401 when=1730454771296 modifiers=80 code=11 char=ffff false false
+--------------- 27 --------------
+  Fri Nov 01 17:52:51 CST 2024
+Menu Activated: Edit | Selection | Select All
+--------------- 28 --------------
+  Fri Nov 01 17:52:51 CST 2024
+ProcessKeyBinding 400 when=1730454771437 modifiers=80 code=0 char=1 false false
+--------------- 29 --------------
+  Fri Nov 01 17:52:51 CST 2024
+ProcessKeyBinding 402 when=1730454771797 modifiers=0 code=11 char=ffff false false
+--------------- 30 --------------
+  Fri Nov 01 17:52:52 CST 2024
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': CPU:CU{ic}['EX@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': XOR{ic}['XOR@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': XOR{ic}['XOR@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': XOR{ic}['XOR@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': XOR{ic}['XOR@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': XOR{ic}['XOR@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': XOR{ic}['XOR@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': XOR{ic}['XOR@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': XOR{ic}['XOR@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': add1{ic}['add1@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': add1{ic}['add1@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': add1{ic}['add1@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': add1{ic}['add1@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': add1{ic}['add1@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': add1{ic}['add1@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': add1{ic}['add1@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': add1{ic}['add1@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Off-Page['conn@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': Wire_Pin['pin@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@33']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@34']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@37']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@38']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@39']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@40']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@42']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@43']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@44']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@45']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@47']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@48']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@49']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@50']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@51']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@54']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@55']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@56']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@57']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@58']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@59']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@60']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@61']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@62']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@63']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@64']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@65']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@66']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@67']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@68']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@69']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{sch}': wire['net@70']
+    Export 'a0'
+    Export 'a1'
+    Export 'a2'
+    Export 'a3'
+    Export 'a4'
+    Export 'a5'
+    Export 'a6'
+    Export 'a7'
+    Export 'b0'
+    Export 'b1'
+    Export 'b2'
+    Export 'b3'
+    Export 'b4'
+    Export 'b5'
+    Export 'b6'
+    Export 'b7'
+    Export 'c'
+    Export 's0'
+    Export 's1'
+    Export 's2'
+    Export 's3'
+    Export 's4'
+    Export 's5'
+    Export 's6'
+    Export 's7'
+--------------- 31 --------------
+  Fri Nov 01 17:52:52 CST 2024
+ProcessKeyBinding 400 when=1730454772591 modifiers=0 code=0 char=7f false false
+--------------- 32 --------------
+  Fri Nov 01 17:52:52 CST 2024
+ProcessKeyBinding 401 when=1730454772951 modifiers=80 code=11 char=ffff false false
+--------------- 33 --------------
+  Fri Nov 01 17:52:53 CST 2024
+Menu Activated: File | Save All Libraries
+--------------- 34 --------------
+  Fri Nov 01 17:52:53 CST 2024
+ProcessKeyBinding 400 when=1730454773094 modifiers=80 code=0 char=13 false false
+--------------- 35 --------------
+  Fri Nov 01 17:52:59 CST 2024
+ProcessKeyBinding 401 when=1730454779295 modifiers=80 code=11 char=ffff false false
+--------------- 36 --------------
+  Fri Nov 01 17:52:59 CST 2024
+Menu Activated: File | Save All Libraries
+--------------- 37 --------------
+  Fri Nov 01 17:52:59 CST 2024
+ProcessKeyBinding 400 when=1730454779467 modifiers=80 code=0 char=13 false false
+--------------- 38 --------------
+  Fri Nov 01 17:53:13 CST 2024
+ProcessKeyBinding 401 when=1730454793557 modifiers=80 code=11 char=ffff false false
+--------------- 39 --------------
+  Fri Nov 01 17:53:13 CST 2024
+Menu Activated: Edit | Selection | Select All
+--------------- 40 --------------
+  Fri Nov 01 17:53:13 CST 2024
+ProcessKeyBinding 400 when=1730454793745 modifiers=80 code=0 char=1 false false
+--------------- 41 --------------
+  Fri Nov 01 17:53:14 CST 2024
+ProcessKeyBinding 402 when=1730454794057 modifiers=0 code=11 char=ffff false false
+--------------- 42 --------------
+  Fri Nov 01 17:53:14 CST 2024
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': Opened-Thicker-Polygon['art@1']
+    Variable 'SCHEM_function' on node Opened-Thicker-Polygon['art@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@28']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@29']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@30']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@31']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@32']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@33']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@34']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@35']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@36']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@37']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@38']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@39']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@40']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@41']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@42']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@43']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@44']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@45']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@46']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@47']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Bus_Pin['pin@48']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:Wire_Pin['pin@49']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{ic}': schematic:wire['net@24']
+    Export 'a0'
+    Export 'a1'
+    Export 'a2'
+    Export 'a3'
+    Export 'a4'
+    Export 'a5'
+    Export 'a6'
+    Export 'a7'
+    Export 'b0'
+    Export 'b1'
+    Export 'b2'
+    Export 'b3'
+    Export 'b4'
+    Export 'b5'
+    Export 'b6'
+    Export 'b7'
+    Export 'c'
+    Export 's0'
+    Export 's1'
+    Export 's2'
+    Export 's3'
+    Export 's4'
+    Export 's5'
+    Export 's6'
+    Export 's7'
+--------------- 43 --------------
+  Fri Nov 01 17:53:14 CST 2024
+ProcessKeyBinding 400 when=1730454794479 modifiers=0 code=0 char=7f false false
+--------------- 44 --------------
+  Fri Nov 01 17:53:14 CST 2024
+ProcessKeyBinding 401 when=1730454794561 modifiers=80 code=11 char=ffff false false
+--------------- 45 --------------
+  Fri Nov 01 17:53:14 CST 2024
+Menu Activated: File | Save All Libraries
+--------------- 46 --------------
+  Fri Nov 01 17:53:14 CST 2024
+ProcessKeyBinding 400 when=1730454794780 modifiers=80 code=0 char=13 false false
+--------------- 47 --------------
+  Fri Nov 01 17:53:15 CST 2024
+ProcessKeyBinding 402 when=1730454795108 modifiers=0 code=11 char=ffff false false
+--------------- 48 --------------
+  Fri Nov 01 17:53:16 CST 2024
+ProcessKeyBinding 401 when=1730454796386 modifiers=80 code=11 char=ffff false false
+--------------- 49 --------------
+  Fri Nov 01 17:53:16 CST 2024
+Menu Activated: Edit | Selection | Select All
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@213']
+--------------- 50 --------------
+  Fri Nov 01 17:53:16 CST 2024
+ProcessKeyBinding 400 when=1730454796495 modifiers=80 code=0 char=1 false false
+--------------- 51 --------------
+  Fri Nov 01 17:53:16 CST 2024
+ProcessKeyBinding 402 when=1730454796777 modifiers=0 code=11 char=ffff false false
+--------------- 52 --------------
+  Fri Nov 01 17:53:17 CST 2024
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': XOR{lay}['XOR@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': XOR{lay}['XOR@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': XOR{lay}['XOR@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': XOR{lay}['XOR@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': XOR{lay}['XOR@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': XOR{lay}['XOR@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': XOR{lay}['XOR@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': XOR{lay}['XOR@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': add1{lay}['add1@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': add1{lay}['add1@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': add1{lay}['add1@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': add1{lay}['add1@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': add1{lay}['add1@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': add1{lay}['add1@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': add1{lay}['add1@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': add1{lay}['add1@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@28']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@29']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@30']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@31']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Metal-2-Con['contact@32']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2-Pin['pin@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3-Pin['pin@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3-Pin['pin@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3-Pin['pin@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3-Pin['pin@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3-Pin['pin@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3-Pin['pin@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3-Pin['pin@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3-Pin['pin@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3-Pin['pin@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3-Pin['pin@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3-Pin['pin@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3-Pin['pin@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3-Pin['pin@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3-Pin['pin@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2-Pin['pin@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2-Pin['pin@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2-Pin['pin@29']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2-Pin['pin@31']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2-Pin['pin@33']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2-Pin['pin@35']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2-Pin['pin@37']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@38']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@39']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@41']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@44']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@47']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@49']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@51']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@53']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@56']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@57']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@58']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@59']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@60']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@61']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@67']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@75']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@76']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@77']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@78']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@79']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@80']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@81']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@92']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@93']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@94']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@95']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@96']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@97']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@98']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@99']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@103']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@106']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@107']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@108']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@109']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@110']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@111']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@112']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@113']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@114']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@115']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@116']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@117']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@118']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@119']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@120']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@121']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@123']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@127']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@128']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@129']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@130']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@131']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@132']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@133']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@136']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@138']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@139']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@140']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@141']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@142']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@143']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@144']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1-Pin['pin@145']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@28']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@29']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@30']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@34']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@35']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@40']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@43']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@49']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@53']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@54']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@55']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@56']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@57']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@58']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@59']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@60']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@61']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@62']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@63']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@64']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@65']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@66']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@67']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@68']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@69']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@70']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@71']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@73']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@75']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@77']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@79']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@81']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@83']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@85']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@87']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@89']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@91']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@93']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@95']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@97']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@99']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@100']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@101']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@103']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@106']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@109']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@111']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@113']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@115']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@118']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@120']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@121']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@123']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@124']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@126']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@127']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@128']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@130']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@131']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@133']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@134']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@136']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@137']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@138']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@139']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@140']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@141']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@142']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@143']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@149']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@150']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@164']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@171']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@172']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@173']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@174']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@175']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@176']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@179']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@182']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@185']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@188']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@191']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@194']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@207']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@210']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@213']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@216']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@219']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@222']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@225']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@228']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@229']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@230']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@231']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@232']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@233']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@234']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@235']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@236']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@245']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@248']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@251']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@254']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@257']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@260']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@263']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@266']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@269']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@272']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@275']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@278']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@281']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@284']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@287']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@290']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@293']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@303']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@304']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@305']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@306']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@307']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@308']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@309']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@311']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@316']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@323']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@326']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@329']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@332']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@335']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@338']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@341']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@344']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@348']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@351']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@354']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@357']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@360']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@363']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@366']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@386']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-2['net@387']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-3['net@388']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@389']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@390']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@391']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@392']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@393']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@394']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@395']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@396']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:CU{lay}': Metal-1['net@397']
+    Export 'a0'
+    Export 'a1'
+    Export 'a2'
+    Export 'a3'
+    Export 'a4'
+    Export 'a5'
+    Export 'a6'
+    Export 'a7'
+    Export 'b0'
+    Export 'b1'
+    Export 'b2'
+    Export 'b3'
+    Export 'b4'
+    Export 'b5'
+    Export 'b6'
+    Export 'b7'
+    Export 'c'
+    Export 's0'
+    Export 's1'
+    Export 's2'
+    Export 's3'
+    Export 's4'
+    Export 's5'
+    Export 's6'
+    Export 's7'
+--------------- 53 --------------
+  Fri Nov 01 17:53:17 CST 2024
+ProcessKeyBinding 400 when=1730454797293 modifiers=0 code=0 char=7f false false
+--------------- 54 --------------
+  Fri Nov 01 17:53:17 CST 2024
+ProcessKeyBinding 401 when=1730454797468 modifiers=80 code=11 char=ffff false false
+--------------- 55 --------------
+  Fri Nov 01 17:53:17 CST 2024
+Menu Activated: File | Save All Libraries
+--------------- 56 --------------
+  Fri Nov 01 17:53:17 CST 2024
+ProcessKeyBinding 400 when=1730454797546 modifiers=80 code=0 char=13 false false
+--------------- 57 --------------
+  Fri Nov 01 17:53:17 CST 2024
+ProcessKeyBinding 402 when=1730454797920 modifiers=0 code=11 char=ffff false false
+--------------- 58 --------------
+  Fri Nov 01 17:53:20 CST 2024
+ProcessKeyBinding 401 when=1730454800887 modifiers=480 code=11 char=ffff false false
+--------------- 59 --------------
+  Fri Nov 01 17:53:21 CST 2024
+Menu Activated: Edit | Selection | Select All
+--------------- 60 --------------
+  Fri Nov 01 17:53:21 CST 2024
+ProcessKeyBinding 400 when=1730454801069 modifiers=80 code=0 char=1 false false
+--------------- 61 --------------
+  Fri Nov 01 17:53:21 CST 2024
+ProcessKeyBinding 402 when=1730454801320 modifiers=0 code=11 char=ffff false false
+--------------- 62 --------------
+  Fri Nov 01 17:53:22 CST 2024
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': CPU:EX{ic}['ALU@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': XOR{ic}['XOR@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': XOR{ic}['XOR@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': XOR{ic}['XOR@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': XOR{ic}['XOR@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': XOR{ic}['XOR@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': XOR{ic}['XOR@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': XOR{ic}['XOR@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': XOR{ic}['XOR@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': add1{ic}['add1@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': add1{ic}['add1@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': add1{ic}['add1@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': add1{ic}['add1@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': add1{ic}['add1@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': add1{ic}['add1@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': add1{ic}['add1@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': add1{ic}['add1@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Off-Page['conn@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': Wire_Pin['pin@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@33']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@34']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@37']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@38']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@39']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@40']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@42']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@43']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@44']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@45']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@47']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@48']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@49']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@50']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@51']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@54']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@55']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@56']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@57']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@58']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@59']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@60']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@61']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@62']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@63']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@64']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@65']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@66']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@67']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@68']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@69']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{sch}': wire['net@70']
+    Export 'a0'
+    Export 'a1'
+    Export 'a2'
+    Export 'a3'
+    Export 'a4'
+    Export 'a5'
+    Export 'a6'
+    Export 'a7'
+    Export 'b0'
+    Export 'b1'
+    Export 'b2'
+    Export 'b3'
+    Export 'b4'
+    Export 'b5'
+    Export 'b6'
+    Export 'b7'
+    Export 'c'
+    Export 's0'
+    Export 's1'
+    Export 's2'
+    Export 's3'
+    Export 's4'
+    Export 's5'
+    Export 's6'
+    Export 's7'
+--------------- 63 --------------
+  Fri Nov 01 17:53:22 CST 2024
+ProcessKeyBinding 400 when=1730454802382 modifiers=0 code=0 char=8 false false
+--------------- 64 --------------
+  Fri Nov 01 17:53:22 CST 2024
+ProcessKeyBinding 401 when=1730454802731 modifiers=80 code=11 char=ffff false false
+--------------- 65 --------------
+  Fri Nov 01 17:53:22 CST 2024
+Menu Activated: File | Save All Libraries
+--------------- 66 --------------
+  Fri Nov 01 17:53:22 CST 2024
+ProcessKeyBinding 400 when=1730454802841 modifiers=80 code=0 char=13 false false
+--------------- 67 --------------
+  Fri Nov 01 17:53:23 CST 2024
+ProcessKeyBinding 402 when=1730454803091 modifiers=0 code=11 char=ffff false false
+--------------- 68 --------------
+  Fri Nov 01 17:53:24 CST 2024
+ProcessKeyBinding 401 when=1730454804274 modifiers=80 code=11 char=ffff false false
+--------------- 69 --------------
+  Fri Nov 01 17:53:24 CST 2024
+Menu Activated: Edit | Selection | Select All
+--------------- 70 --------------
+  Fri Nov 01 17:53:24 CST 2024
+ProcessKeyBinding 400 when=1730454804431 modifiers=80 code=0 char=1 false false
+--------------- 71 --------------
+  Fri Nov 01 17:53:24 CST 2024
+ProcessKeyBinding 402 when=1730454804650 modifiers=0 code=11 char=ffff false false
+--------------- 72 --------------
+  Fri Nov 01 17:53:24 CST 2024
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': Opened-Thicker-Polygon['art@1']
+    Variable 'SCHEM_function' on node Opened-Thicker-Polygon['art@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@28']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@29']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@30']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@31']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@32']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@33']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@34']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@35']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@36']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@37']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@38']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@39']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@40']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@41']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@42']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@43']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@44']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@45']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@46']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@47']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Bus_Pin['pin@48']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:Wire_Pin['pin@49']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{ic}': schematic:wire['net@24']
+    Export 'a0'
+    Export 'a1'
+    Export 'a2'
+    Export 'a3'
+    Export 'a4'
+    Export 'a5'
+    Export 'a6'
+    Export 'a7'
+    Export 'b0'
+    Export 'b1'
+    Export 'b2'
+    Export 'b3'
+    Export 'b4'
+    Export 'b5'
+    Export 'b6'
+    Export 'b7'
+    Export 'c'
+    Export 's0'
+    Export 's1'
+    Export 's2'
+    Export 's3'
+    Export 's4'
+    Export 's5'
+    Export 's6'
+    Export 's7'
+--------------- 73 --------------
+  Fri Nov 01 17:53:24 CST 2024
+ProcessKeyBinding 400 when=1730454804958 modifiers=0 code=0 char=8 false false
+--------------- 74 --------------
+  Fri Nov 01 17:53:25 CST 2024
+Menu Activated: Edit | Modes | Edit | Click/Zoom/Wire
+--------------- 75 --------------
+  Fri Nov 01 17:53:25 CST 2024
+ProcessKeyBinding 400 when=1730454805145 modifiers=0 code=0 char=73(s) false false
+--------------- 76 --------------
+  Fri Nov 01 17:53:26 CST 2024
+ProcessKeyBinding 401 when=1730454806798 modifiers=80 code=11 char=ffff false false
+--------------- 77 --------------
+  Fri Nov 01 17:53:27 CST 2024
+Menu Activated: Edit | Selection | Select All
+--------------- 78 --------------
+  Fri Nov 01 17:53:27 CST 2024
+ProcessKeyBinding 400 when=1730454807267 modifiers=80 code=0 char=1 false false
+--------------- 79 --------------
+  Fri Nov 01 17:53:27 CST 2024
+ProcessKeyBinding 402 when=1730454807570 modifiers=0 code=11 char=ffff false false
+--------------- 80 --------------
+  Fri Nov 01 17:53:27 CST 2024
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': XOR{lay}['XOR@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': XOR{lay}['XOR@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': XOR{lay}['XOR@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': XOR{lay}['XOR@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': XOR{lay}['XOR@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': XOR{lay}['XOR@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': XOR{lay}['XOR@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': XOR{lay}['XOR@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': add1{lay}['add1@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': add1{lay}['add1@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': add1{lay}['add1@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': add1{lay}['add1@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': add1{lay}['add1@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': add1{lay}['add1@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': add1{lay}['add1@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': add1{lay}['add1@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@28']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@29']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@30']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@31']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Metal-2-Con['contact@32']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2-Pin['pin@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3-Pin['pin@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3-Pin['pin@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3-Pin['pin@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3-Pin['pin@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3-Pin['pin@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3-Pin['pin@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3-Pin['pin@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3-Pin['pin@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3-Pin['pin@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3-Pin['pin@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3-Pin['pin@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3-Pin['pin@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3-Pin['pin@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3-Pin['pin@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2-Pin['pin@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2-Pin['pin@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2-Pin['pin@29']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2-Pin['pin@31']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2-Pin['pin@33']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2-Pin['pin@35']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2-Pin['pin@37']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@38']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@39']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@41']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@44']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@47']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@49']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@51']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@53']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@56']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@57']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@58']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@59']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@60']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@61']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@67']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@75']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@76']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@77']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@78']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@79']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@80']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@81']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@92']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@93']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@94']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@95']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@96']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@97']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@98']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@99']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@103']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@106']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@107']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@108']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@109']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@110']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@111']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@112']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@113']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@114']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@115']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@116']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@117']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@118']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@119']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@120']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@121']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@123']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@127']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@128']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@129']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@130']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@131']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@132']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@133']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@136']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@138']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@139']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@140']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@141']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@142']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@143']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@144']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1-Pin['pin@145']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@28']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@29']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@30']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@34']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@35']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@40']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@43']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@49']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@53']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@54']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@55']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@56']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@57']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@58']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@59']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@60']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@61']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@62']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@63']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@64']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@65']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@66']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@67']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@68']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@69']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@70']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@71']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@73']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@75']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@77']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@79']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@81']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@83']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@85']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@87']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@89']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@91']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@93']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@95']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@97']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@99']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@100']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@101']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@103']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@106']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@109']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@111']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@113']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@115']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@118']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@120']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@121']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@123']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@124']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@126']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@127']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@128']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@130']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@131']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@133']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@134']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@136']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@137']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@138']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@139']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@140']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@141']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@142']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@143']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@149']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@150']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@164']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@171']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@172']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@173']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@174']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@175']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@176']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@179']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@182']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@185']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@188']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@191']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@194']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@207']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@210']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@213']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@216']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@219']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@222']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@225']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@228']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@229']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@230']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@231']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@232']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@233']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@234']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@235']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@236']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@245']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@248']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@251']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@254']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@257']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@260']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@263']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@266']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@269']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@272']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@275']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@278']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@281']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@284']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@287']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@290']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@293']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@303']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@304']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@305']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@306']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@307']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@308']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@309']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@311']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@316']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@323']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@326']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@329']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@332']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@335']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@338']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@341']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@344']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@348']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@351']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@354']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@357']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@360']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@363']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@366']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@386']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-2['net@387']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-3['net@388']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@389']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@390']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@391']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@392']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@393']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@394']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@395']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@396']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:EX{lay}': Metal-1['net@397']
+    Export 'a0'
+    Export 'a1'
+    Export 'a2'
+    Export 'a3'
+    Export 'a4'
+    Export 'a5'
+    Export 'a6'
+    Export 'a7'
+    Export 'b0'
+    Export 'b1'
+    Export 'b2'
+    Export 'b3'
+    Export 'b4'
+    Export 'b5'
+    Export 'b6'
+    Export 'b7'
+    Export 'c'
+    Export 's0'
+    Export 's1'
+    Export 's2'
+    Export 's3'
+    Export 's4'
+    Export 's5'
+    Export 's6'
+    Export 's7'
+--------------- 81 --------------
+  Fri Nov 01 17:53:27 CST 2024
+ProcessKeyBinding 400 when=1730454807915 modifiers=0 code=0 char=7f false false
+--------------- 82 --------------
+  Fri Nov 01 17:53:28 CST 2024
+Menu Activated: Edit | Modes | Edit | Click/Zoom/Wire
+--------------- 83 --------------
+  Fri Nov 01 17:53:28 CST 2024
+ProcessKeyBinding 400 when=1730454808163 modifiers=0 code=0 char=73(s) false false
+--------------- 84 --------------
+  Fri Nov 01 17:53:28 CST 2024
+ProcessKeyBinding 401 when=1730454808773 modifiers=80 code=11 char=ffff false false
+--------------- 85 --------------
+  Fri Nov 01 17:53:29 CST 2024
+Menu Activated: File | Save All Libraries
+--------------- 86 --------------
+  Fri Nov 01 17:53:29 CST 2024
+ProcessKeyBinding 400 when=1730454809006 modifiers=80 code=0 char=13 false false
+--------------- 87 --------------
+  Fri Nov 01 17:53:29 CST 2024
+ProcessKeyBinding 402 when=1730454809413 modifiers=0 code=11 char=ffff false false
+--------------- 88 --------------
+  Fri Nov 01 17:53:30 CST 2024
+ProcessKeyBinding 401 when=1730454810957 modifiers=80 code=11 char=ffff false false
+--------------- 89 --------------
+  Fri Nov 01 17:53:31 CST 2024
+Menu Activated: Edit | Selection | Select All
+--------------- 90 --------------
+  Fri Nov 01 17:53:31 CST 2024
+ProcessKeyBinding 400 when=1730454811171 modifiers=80 code=0 char=1 false false
+--------------- 91 --------------
+  Fri Nov 01 17:53:31 CST 2024
+ProcessKeyBinding 402 when=1730454811453 modifiers=0 code=11 char=ffff false false
+--------------- 92 --------------
+  Fri Nov 01 17:53:31 CST 2024
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': CPU:ID{ic}['ALU@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': XOR{ic}['XOR@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': XOR{ic}['XOR@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': XOR{ic}['XOR@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': XOR{ic}['XOR@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': XOR{ic}['XOR@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': XOR{ic}['XOR@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': XOR{ic}['XOR@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': XOR{ic}['XOR@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': add1{ic}['add1@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': add1{ic}['add1@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': add1{ic}['add1@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': add1{ic}['add1@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': add1{ic}['add1@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': add1{ic}['add1@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': add1{ic}['add1@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': add1{ic}['add1@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Off-Page['conn@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': Wire_Pin['pin@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@33']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@34']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@37']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@38']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@39']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@40']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@42']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@43']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@44']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@45']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@47']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@48']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@49']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@50']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@51']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@54']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@55']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@56']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@57']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@58']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@59']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@60']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@61']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@62']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@63']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@64']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@65']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@66']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@67']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@68']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@69']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{sch}': wire['net@70']
+    Export 'a0'
+    Export 'a1'
+    Export 'a2'
+    Export 'a3'
+    Export 'a4'
+    Export 'a5'
+    Export 'a6'
+    Export 'a7'
+    Export 'b0'
+    Export 'b1'
+    Export 'b2'
+    Export 'b3'
+    Export 'b4'
+    Export 'b5'
+    Export 'b6'
+    Export 'b7'
+    Export 'c'
+    Export 's0'
+    Export 's1'
+    Export 's2'
+    Export 's3'
+    Export 's4'
+    Export 's5'
+    Export 's6'
+    Export 's7'
+--------------- 93 --------------
+  Fri Nov 01 17:53:31 CST 2024
+ProcessKeyBinding 400 when=1730454811766 modifiers=0 code=0 char=7f false false
+--------------- 94 --------------
+  Fri Nov 01 17:53:31 CST 2024
+ProcessKeyBinding 401 when=1730454811857 modifiers=80 code=11 char=ffff false false
+--------------- 95 --------------
+  Fri Nov 01 17:53:31 CST 2024
+Menu Activated: File | Save All Libraries
+--------------- 96 --------------
+  Fri Nov 01 17:53:31 CST 2024
+ProcessKeyBinding 400 when=1730454811951 modifiers=80 code=0 char=13 false false
+--------------- 97 --------------
+  Fri Nov 01 17:53:32 CST 2024
+ProcessKeyBinding 402 when=1730454812327 modifiers=0 code=11 char=ffff false false
+--------------- 98 --------------
+  Fri Nov 01 17:53:33 CST 2024
+ProcessKeyBinding 401 when=1730454813394 modifiers=80 code=11 char=ffff false false
+--------------- 99 --------------
+  Fri Nov 01 17:53:33 CST 2024
+Menu Activated: File | Save All Libraries
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': Opened-Thicker-Polygon['art@1']
+--------------- 100 --------------
+  Fri Nov 01 17:53:33 CST 2024
+ProcessKeyBinding 400 when=1730454813598 modifiers=80 code=0 char=13 false false
+--------------- 101 --------------
+  Fri Nov 01 17:53:33 CST 2024
+ProcessKeyBinding 402 when=1730454813923 modifiers=0 code=11 char=ffff false false
+--------------- 102 --------------
+  Fri Nov 01 17:53:34 CST 2024
+ProcessKeyBinding 401 when=1730454814157 modifiers=80 code=11 char=ffff false false
+--------------- 103 --------------
+  Fri Nov 01 17:53:34 CST 2024
+Menu Activated: File | Save All Libraries
+--------------- 104 --------------
+  Fri Nov 01 17:53:34 CST 2024
+ProcessKeyBinding 400 when=1730454814298 modifiers=80 code=0 char=13 false false
+--------------- 105 --------------
+  Fri Nov 01 17:53:34 CST 2024
+Menu Activated: Edit | Selection | Select All
+--------------- 106 --------------
+  Fri Nov 01 17:53:34 CST 2024
+ProcessKeyBinding 400 when=1730454814642 modifiers=80 code=0 char=1 false false
+--------------- 107 --------------
+  Fri Nov 01 17:53:34 CST 2024
+ProcessKeyBinding 402 when=1730454814986 modifiers=0 code=11 char=ffff false false
+--------------- 108 --------------
+  Fri Nov 01 17:53:35 CST 2024
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': Opened-Thicker-Polygon['art@1']
+    Variable 'SCHEM_function' on node Opened-Thicker-Polygon['art@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@28']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@29']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@30']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@31']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@32']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@33']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@34']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@35']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@36']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@37']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@38']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@39']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@40']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@41']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@42']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@43']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@44']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@45']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@46']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@47']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Bus_Pin['pin@48']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:Wire_Pin['pin@49']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{ic}': schematic:wire['net@24']
+    Export 'a0'
+    Export 'a1'
+    Export 'a2'
+    Export 'a3'
+    Export 'a4'
+    Export 'a5'
+    Export 'a6'
+    Export 'a7'
+    Export 'b0'
+    Export 'b1'
+    Export 'b2'
+    Export 'b3'
+    Export 'b4'
+    Export 'b5'
+    Export 'b6'
+    Export 'b7'
+    Export 'c'
+    Export 's0'
+    Export 's1'
+    Export 's2'
+    Export 's3'
+    Export 's4'
+    Export 's5'
+    Export 's6'
+    Export 's7'
+--------------- 109 --------------
+  Fri Nov 01 17:53:35 CST 2024
+ProcessKeyBinding 400 when=1730454815408 modifiers=0 code=0 char=7f false false
+--------------- 110 --------------
+  Fri Nov 01 17:53:35 CST 2024
+ProcessKeyBinding 401 when=1730454815576 modifiers=80 code=11 char=ffff false false
+--------------- 111 --------------
+  Fri Nov 01 17:53:35 CST 2024
+Menu Activated: File | Save All Libraries
+--------------- 112 --------------
+  Fri Nov 01 17:53:35 CST 2024
+ProcessKeyBinding 400 when=1730454815685 modifiers=80 code=0 char=13 false false
+--------------- 113 --------------
+  Fri Nov 01 17:53:36 CST 2024
+ProcessKeyBinding 402 when=1730454816092 modifiers=0 code=11 char=ffff false false
+--------------- 114 --------------
+  Fri Nov 01 17:53:37 CST 2024
+ProcessKeyBinding 401 when=1730454817807 modifiers=80 code=11 char=ffff false false
+--------------- 115 --------------
+  Fri Nov 01 17:53:37 CST 2024
+Menu Activated: Edit | Selection | Select All
+--------------- 116 --------------
+  Fri Nov 01 17:53:37 CST 2024
+ProcessKeyBinding 400 when=1730454817916 modifiers=80 code=0 char=1 false false
+--------------- 117 --------------
+  Fri Nov 01 17:53:38 CST 2024
+ProcessKeyBinding 402 when=1730454818197 modifiers=0 code=11 char=ffff false false
+--------------- 118 --------------
+  Fri Nov 01 17:53:38 CST 2024
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': XOR{lay}['XOR@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': XOR{lay}['XOR@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': XOR{lay}['XOR@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': XOR{lay}['XOR@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': XOR{lay}['XOR@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': XOR{lay}['XOR@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': XOR{lay}['XOR@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': XOR{lay}['XOR@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': add1{lay}['add1@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': add1{lay}['add1@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': add1{lay}['add1@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': add1{lay}['add1@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': add1{lay}['add1@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': add1{lay}['add1@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': add1{lay}['add1@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': add1{lay}['add1@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@28']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@29']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@30']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@31']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Metal-2-Con['contact@32']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2-Pin['pin@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3-Pin['pin@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3-Pin['pin@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3-Pin['pin@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3-Pin['pin@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3-Pin['pin@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3-Pin['pin@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3-Pin['pin@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3-Pin['pin@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3-Pin['pin@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3-Pin['pin@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3-Pin['pin@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3-Pin['pin@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3-Pin['pin@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3-Pin['pin@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2-Pin['pin@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2-Pin['pin@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2-Pin['pin@29']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2-Pin['pin@31']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2-Pin['pin@33']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2-Pin['pin@35']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2-Pin['pin@37']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@38']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@39']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@41']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@44']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@47']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@49']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@51']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@53']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@56']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@57']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@58']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@59']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@60']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@61']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@67']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@75']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@76']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@77']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@78']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@79']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@80']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@81']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@92']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@93']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@94']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@95']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@96']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@97']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@98']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@99']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@103']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@106']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@107']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@108']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@109']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@110']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@111']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@112']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@113']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@114']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@115']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@116']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@117']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@118']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@119']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@120']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@121']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@123']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@127']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@128']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@129']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@130']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@131']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@132']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@133']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@136']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@138']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@139']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@140']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@141']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@142']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@143']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@144']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1-Pin['pin@145']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@28']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@29']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@30']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@34']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@35']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@40']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@43']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@49']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@53']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@54']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@55']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@56']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@57']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@58']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@59']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@60']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@61']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@62']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@63']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@64']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@65']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@66']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@67']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@68']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@69']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@70']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@71']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@73']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@75']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@77']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@79']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@81']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@83']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@85']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@87']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@89']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@91']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@93']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@95']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@97']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@99']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@100']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@101']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@103']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@106']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@109']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@111']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@113']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@115']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@118']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@120']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@121']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@123']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@124']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@126']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@127']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@128']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@130']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@131']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@133']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@134']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@136']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@137']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@138']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@139']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@140']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@141']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@142']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@143']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@149']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@150']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@164']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@171']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@172']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@173']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@174']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@175']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@176']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@179']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@182']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@185']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@188']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@191']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@194']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@207']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@210']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@213']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@216']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@219']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@222']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@225']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@228']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@229']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@230']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@231']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@232']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@233']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@234']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@235']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@236']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@245']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@248']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@251']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@254']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@257']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@260']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@263']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@266']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@269']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@272']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@275']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@278']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@281']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@284']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@287']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@290']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@293']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@303']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@304']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@305']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@306']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@307']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@308']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@309']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@311']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@316']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@323']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@326']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@329']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@332']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@335']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@338']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@341']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@344']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@348']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@351']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@354']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@357']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@360']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@363']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@366']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@386']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-2['net@387']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-3['net@388']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@389']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@390']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@391']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@392']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@393']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@394']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@395']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@396']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:ID{lay}': Metal-1['net@397']
+    Export 'a0'
+    Export 'a1'
+    Export 'a2'
+    Export 'a3'
+    Export 'a4'
+    Export 'a5'
+    Export 'a6'
+    Export 'a7'
+    Export 'b0'
+    Export 'b1'
+    Export 'b2'
+    Export 'b3'
+    Export 'b4'
+    Export 'b5'
+    Export 'b6'
+    Export 'b7'
+    Export 'c'
+    Export 's0'
+    Export 's1'
+    Export 's2'
+    Export 's3'
+    Export 's4'
+    Export 's5'
+    Export 's6'
+    Export 's7'
+--------------- 119 --------------
+  Fri Nov 01 17:53:38 CST 2024
+ProcessKeyBinding 400 when=1730454818546 modifiers=0 code=0 char=7f false false
+--------------- 120 --------------
+  Fri Nov 01 17:53:38 CST 2024
+ProcessKeyBinding 401 when=1730454818641 modifiers=80 code=11 char=ffff false false
+--------------- 121 --------------
+  Fri Nov 01 17:53:38 CST 2024
+Menu Activated: File | Save All Libraries
+--------------- 122 --------------
+  Fri Nov 01 17:53:38 CST 2024
+ProcessKeyBinding 400 when=1730454818781 modifiers=80 code=0 char=13 false false
+--------------- 123 --------------
+  Fri Nov 01 17:53:39 CST 2024
+ProcessKeyBinding 402 when=1730454819156 modifiers=0 code=11 char=ffff false false
+--------------- 124 --------------
+  Fri Nov 01 17:53:43 CST 2024
+ProcessKeyBinding 401 when=1730454823063 modifiers=80 code=11 char=ffff false false
+--------------- 125 --------------
+  Fri Nov 01 17:53:43 CST 2024
+Menu Activated: Edit | Selection | Select All
+--------------- 126 --------------
+  Fri Nov 01 17:53:43 CST 2024
+ProcessKeyBinding 400 when=1730454823251 modifiers=80 code=0 char=1 false false
+--------------- 127 --------------
+  Fri Nov 01 17:53:43 CST 2024
+ProcessKeyBinding 402 when=1730454823532 modifiers=0 code=11 char=ffff false false
+--------------- 128 --------------
+  Fri Nov 01 17:53:43 CST 2024
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': CPU:IF{ic}['ALU@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': XOR{ic}['XOR@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': XOR{ic}['XOR@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': XOR{ic}['XOR@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': XOR{ic}['XOR@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': XOR{ic}['XOR@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': XOR{ic}['XOR@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': XOR{ic}['XOR@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': XOR{ic}['XOR@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': add1{ic}['add1@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': add1{ic}['add1@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': add1{ic}['add1@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': add1{ic}['add1@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': add1{ic}['add1@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': add1{ic}['add1@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': add1{ic}['add1@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': add1{ic}['add1@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Off-Page['conn@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': Wire_Pin['pin@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@33']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@34']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@37']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@38']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@39']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@40']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@42']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@43']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@44']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@45']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@47']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@48']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@49']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@50']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@51']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@54']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@55']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@56']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@57']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@58']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@59']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@60']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@61']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@62']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@63']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@64']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@65']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@66']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@67']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@68']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@69']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{sch}': wire['net@70']
+    Export 'a0'
+    Export 'a1'
+    Export 'a2'
+    Export 'a3'
+    Export 'a4'
+    Export 'a5'
+    Export 'a6'
+    Export 'a7'
+    Export 'b0'
+    Export 'b1'
+    Export 'b2'
+    Export 'b3'
+    Export 'b4'
+    Export 'b5'
+    Export 'b6'
+    Export 'b7'
+    Export 'c'
+    Export 's0'
+    Export 's1'
+    Export 's2'
+    Export 's3'
+    Export 's4'
+    Export 's5'
+    Export 's6'
+    Export 's7'
+--------------- 129 --------------
+  Fri Nov 01 17:53:43 CST 2024
+ProcessKeyBinding 400 when=1730454823888 modifiers=0 code=0 char=7f false false
+--------------- 130 --------------
+  Fri Nov 01 17:53:43 CST 2024
+ProcessKeyBinding 401 when=1730454823981 modifiers=80 code=11 char=ffff false false
+--------------- 131 --------------
+  Fri Nov 01 17:53:44 CST 2024
+Menu Activated: File | Save All Libraries
+--------------- 132 --------------
+  Fri Nov 01 17:53:44 CST 2024
+ProcessKeyBinding 400 when=1730454824138 modifiers=80 code=0 char=13 false false
+--------------- 133 --------------
+  Fri Nov 01 17:53:44 CST 2024
+ProcessKeyBinding 402 when=1730454824520 modifiers=0 code=11 char=ffff false false
+--------------- 134 --------------
+  Fri Nov 01 17:53:45 CST 2024
+ProcessKeyBinding 401 when=1730454825990 modifiers=80 code=11 char=ffff false false
+--------------- 135 --------------
+  Fri Nov 01 17:53:46 CST 2024
+Menu Activated: Edit | Selection | Select All
+--------------- 136 --------------
+  Fri Nov 01 17:53:46 CST 2024
+ProcessKeyBinding 400 when=1730454826178 modifiers=80 code=0 char=1 false false
+--------------- 137 --------------
+  Fri Nov 01 17:53:46 CST 2024
+ProcessKeyBinding 402 when=1730454826471 modifiers=0 code=11 char=ffff false false
+--------------- 138 --------------
+  Fri Nov 01 17:53:46 CST 2024
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': Opened-Thicker-Polygon['art@1']
+    Variable 'SCHEM_function' on node Opened-Thicker-Polygon['art@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@28']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@29']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@30']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@31']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@32']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@33']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@34']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@35']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@36']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@37']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@38']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@39']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@40']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@41']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@42']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@43']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@44']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@45']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@46']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@47']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Bus_Pin['pin@48']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:Wire_Pin['pin@49']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{ic}': schematic:wire['net@24']
+    Export 'a0'
+    Export 'a1'
+    Export 'a2'
+    Export 'a3'
+    Export 'a4'
+    Export 'a5'
+    Export 'a6'
+    Export 'a7'
+    Export 'b0'
+    Export 'b1'
+    Export 'b2'
+    Export 'b3'
+    Export 'b4'
+    Export 'b5'
+    Export 'b6'
+    Export 'b7'
+    Export 'c'
+    Export 's0'
+    Export 's1'
+    Export 's2'
+    Export 's3'
+    Export 's4'
+    Export 's5'
+    Export 's6'
+    Export 's7'
+--------------- 139 --------------
+  Fri Nov 01 17:53:46 CST 2024
+ProcessKeyBinding 400 when=1730454826737 modifiers=0 code=0 char=7f false false
+--------------- 140 --------------
+  Fri Nov 01 17:53:46 CST 2024
+ProcessKeyBinding 401 when=1730454826807 modifiers=80 code=11 char=ffff false false
+--------------- 141 --------------
+  Fri Nov 01 17:53:46 CST 2024
+Menu Activated: File | Save All Libraries
+--------------- 142 --------------
+  Fri Nov 01 17:53:46 CST 2024
+ProcessKeyBinding 400 when=1730454826932 modifiers=80 code=0 char=13 false false
+--------------- 143 --------------
+  Fri Nov 01 17:53:47 CST 2024
+ProcessKeyBinding 402 when=1730454827338 modifiers=0 code=11 char=ffff false false
+--------------- 144 --------------
+  Fri Nov 01 17:53:48 CST 2024
+ProcessKeyBinding 401 when=1730454828510 modifiers=80 code=11 char=ffff false false
+--------------- 145 --------------
+  Fri Nov 01 17:53:48 CST 2024
+Menu Activated: Edit | Selection | Select All
+--------------- 146 --------------
+  Fri Nov 01 17:53:48 CST 2024
+ProcessKeyBinding 400 when=1730454828636 modifiers=80 code=0 char=1 false false
+--------------- 147 --------------
+  Fri Nov 01 17:53:48 CST 2024
+ProcessKeyBinding 402 when=1730454828855 modifiers=0 code=11 char=ffff false false
+--------------- 148 --------------
+  Fri Nov 01 17:53:49 CST 2024
+Menu Activated: Edit | Erase | Selected
+Currently highlighted: 
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': XOR{lay}['XOR@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': XOR{lay}['XOR@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': XOR{lay}['XOR@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': XOR{lay}['XOR@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': XOR{lay}['XOR@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': XOR{lay}['XOR@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': XOR{lay}['XOR@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': XOR{lay}['XOR@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': add1{lay}['add1@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': add1{lay}['add1@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': add1{lay}['add1@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': add1{lay}['add1@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': add1{lay}['add1@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': add1{lay}['add1@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': add1{lay}['add1@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': add1{lay}['add1@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@0']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@1']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@4']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@6']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@7']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@8']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@10']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@28']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@29']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@30']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@31']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Metal-2-Con['contact@32']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@2']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@3']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2-Pin['pin@5']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3-Pin['pin@9']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3-Pin['pin@11']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3-Pin['pin@12']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3-Pin['pin@13']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3-Pin['pin@14']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3-Pin['pin@15']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3-Pin['pin@16']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3-Pin['pin@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3-Pin['pin@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3-Pin['pin@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3-Pin['pin@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3-Pin['pin@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3-Pin['pin@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3-Pin['pin@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2-Pin['pin@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2-Pin['pin@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2-Pin['pin@29']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2-Pin['pin@31']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2-Pin['pin@33']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2-Pin['pin@35']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2-Pin['pin@37']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@38']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@39']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@41']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@44']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@47']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@49']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@51']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@53']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@56']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@57']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@58']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@59']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@60']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@61']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@67']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@75']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@76']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@77']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@78']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@79']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@80']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@81']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@92']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@93']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@94']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@95']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@96']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@97']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@98']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@99']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@103']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@106']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@107']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@108']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@109']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@110']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@111']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@112']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@113']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@114']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@115']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@116']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@117']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@118']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@119']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@120']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@121']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@123']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@127']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@128']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@129']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@130']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@131']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@132']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@133']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@136']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@138']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@139']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@140']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@141']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@142']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@143']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@144']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1-Pin['pin@145']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@17']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@18']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@19']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@20']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@21']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@22']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@23']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@24']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@25']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@26']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@27']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@28']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@29']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@30']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@34']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@35']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@40']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@43']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@49']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@53']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@54']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@55']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@56']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@57']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@58']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@59']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@60']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@61']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@62']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@63']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@64']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@65']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@66']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@67']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@68']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@69']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@70']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@71']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@73']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@75']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@77']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@79']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@81']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@83']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@85']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@87']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@89']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@91']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@93']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@95']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@97']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@99']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@100']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@101']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@103']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@106']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@109']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@111']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@113']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@115']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@118']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@120']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@121']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@123']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@124']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@126']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@127']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@128']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@130']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@131']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@133']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@134']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@136']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@137']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@138']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@139']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@140']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@141']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@142']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@143']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@149']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@150']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@164']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@171']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@172']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@173']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@174']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@175']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@176']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@179']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@182']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@185']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@188']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@191']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@194']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@207']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@210']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@213']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@216']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@219']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@222']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@225']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@228']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@229']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@230']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@231']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@232']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@233']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@234']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@235']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@236']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@245']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@248']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@251']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@254']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@257']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@260']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@263']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@266']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@269']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@272']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@275']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@278']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@281']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@284']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@287']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@290']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@293']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@303']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@304']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@305']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@306']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@307']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@308']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@309']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@311']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@316']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@323']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@326']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@329']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@332']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@335']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@338']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@341']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@344']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@348']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@351']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@354']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@357']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@360']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@363']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@366']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@386']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-2['net@387']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-3['net@388']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@389']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@390']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@391']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@392']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@393']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@394']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@395']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@396']
+    com.sun.electric.tool.user.HighlightEOBJ in cell 'CPU:IF{lay}': Metal-1['net@397']
+    Export 'a0'
+    Export 'a1'
+    Export 'a2'
+    Export 'a3'
+    Export 'a4'
+    Export 'a5'
+    Export 'a6'
+    Export 'a7'
+    Export 'b0'
+    Export 'b1'
+    Export 'b2'
+    Export 'b3'
+    Export 'b4'
+    Export 'b5'
+    Export 'b6'
+    Export 'b7'
+    Export 'c'
+    Export 's0'
+    Export 's1'
+    Export 's2'
+    Export 's3'
+    Export 's4'
+    Export 's5'
+    Export 's6'
+    Export 's7'
+--------------- 149 --------------
+  Fri Nov 01 17:53:49 CST 2024
+ProcessKeyBinding 400 when=1730454829168 modifiers=0 code=0 char=7f false false
+--------------- 150 --------------
+  Fri Nov 01 17:53:49 CST 2024
+ProcessKeyBinding 401 when=1730454829285 modifiers=80 code=11 char=ffff false false
+--------------- 151 --------------
+  Fri Nov 01 17:53:49 CST 2024
+Menu Activated: File | Save All Libraries
+--------------- 152 --------------
+  Fri Nov 01 17:53:49 CST 2024
+ProcessKeyBinding 400 when=1730454829395 modifiers=80 code=0 char=13 false false
+--------------- 153 --------------
+  Fri Nov 01 17:53:49 CST 2024
+ProcessKeyBinding 402 when=1730454829771 modifiers=0 code=11 char=ffff false false
